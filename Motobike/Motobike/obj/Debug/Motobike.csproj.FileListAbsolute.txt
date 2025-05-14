@@ -1,0 +1,348 @@
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Motobike.exe.config
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Motobike.exe
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Motobike.pdb
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Guna.UI2.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.csproj.AssemblyReference.cache
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Index.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Properties.Resources.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.csproj.GenerateResource.cache
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.csproj.CoreCompileInputs.cache
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.csproj.Up2Date
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.exe
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.pdb
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Index2.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.ACC.Dangky.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.ACC.Dangnhap.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Header.Danhmuclogo.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.DanhMucChinh.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuctheloai.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaomain.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Header.Baocaologo.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Header.Timkiemlogo.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonban.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonnhap.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Timkiem.Timkiemmain.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Timkiem.Timkiemhanghoa.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemkhachhang.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Header.Mathanglogo.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Mathang.Mathangmain.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Mathang.Suzuki.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Mathang.Yamaha.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Header.Hoadonlogo.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\iTextSharp.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhoadonnhap.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhoadonban.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.ACC.Quanmk.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucmausac.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuckhachhang.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucnhanvien.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucnhacungcap.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuchanghoa.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonmain.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaobanhang.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaohoatdongkinhdoanh.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaonhaphang.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaotopsanpham.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\EnvDTE.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\stdole.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\obj\Debug\Motobike.Mathang.Honda.resources
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\EPPlus.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\EPPlus.Interfaces.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Buffers.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Memory.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Numerics.Vectors.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\EPPlus.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Buffers.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Memory.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Numerics.Vectors.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ALL MON HOC\.NET\ShopMotobike\Motobike\Motobike\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Motobike.exe.config
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Motobike.exe
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Motobike.pdb
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\EPPlus.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\EPPlus.Interfaces.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Guna.UI2.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\iTextSharp.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Buffers.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.ComponentModel.Annotations.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Memory.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Numerics.Vectors.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\EnvDTE.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\stdole.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\EPPlus.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Buffers.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Memory.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Numerics.Vectors.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.AssemblyReference.cache
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.ACC.Dangky.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.ACC.Dangnhap.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.ACC.Quanmk.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaobanhang.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaohoatdongkinhdoanh.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaomain.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaonhaphang.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaotopsanpham.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.DanhMucChinh.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuchanghoa.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuckhachhang.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucmausac.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucnhacungcap.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucnhanvien.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuctheloai.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Baocaologo.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Danhmuclogo.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Hoadonlogo.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Mathanglogo.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Timkiemlogo.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonban.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonmain.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonnhap.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Index.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Index2.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Honda.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Mathangmain.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Suzuki.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Yamaha.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Properties.Resources.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhanghoa.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhoadonnhap.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhoadonban.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemkhachhang.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.Timkiemmain.resources
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.GenerateResource.cache
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.CoreCompileInputs.cache
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.Up2Date
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.exe
+D:\FINAL_PROJECT\.Net\DotNet\Motobike\Motobike\obj\Debug\Motobike.pdb
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Motobike.exe.config
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Motobike.exe
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Motobike.pdb
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\EPPlus.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\EPPlus.Interfaces.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Guna.UI2.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\iTextSharp.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Buffers.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.ComponentModel.Annotations.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Memory.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Numerics.Vectors.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Security.Cryptography.Xml.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\EnvDTE.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\stdole.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\EPPlus.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Buffers.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Memory.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Numerics.Vectors.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\System.Security.Cryptography.Xml.xml
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.AssemblyReference.cache
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.ACC.Dangky.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.ACC.Dangnhap.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.ACC.Quanmk.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaobanhang.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaohoatdongkinhdoanh.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaomain.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaonhaphang.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Baocao.Baocaotopsanpham.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.DanhMucChinh.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuchanghoa.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuckhachhang.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucmausac.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucnhacungcap.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmucnhanvien.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Danhmuc.Danhmuctheloai.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Baocaologo.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Danhmuclogo.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Hoadonlogo.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Mathanglogo.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Header.Timkiemlogo.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonban.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonmain.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Hoadon.Hoadonnhap.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Index.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Index2.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Honda.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Mathangmain.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Suzuki.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Mathang.Yamaha.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Properties.Resources.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhanghoa.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhoadonnhap.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemhoadonban.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.timkiemkhachhang.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.Timkiem.Timkiemmain.resources
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.GenerateResource.cache
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.CoreCompileInputs.cache
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.csproj.Up2Date
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.exe
+D:\ALL MON HOC\.NET\DotNet\Motobike\Motobike\obj\Debug\Motobike.pdb
