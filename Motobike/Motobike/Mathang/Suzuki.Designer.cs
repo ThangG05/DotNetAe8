@@ -88,7 +88,7 @@
             this.grouphonda.Name = "grouphonda";
             this.grouphonda.Size = new System.Drawing.Size(626, 400);
             this.grouphonda.TabIndex = 68;
-            this.grouphonda.Text = "Thông tin xe Honda";
+            this.grouphonda.Text = "Thông tin xe Suzuki";
             // 
             // txtmausac
             // 

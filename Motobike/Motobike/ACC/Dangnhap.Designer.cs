@@ -35,6 +35,7 @@
             this.txtmatkhau = new Guna.UI2.WinForms.Guna2TextBox();
             this.txttaikhoan = new Guna.UI2.WinForms.Guna2TextBox();
             this.ButDangnhap = new Guna.UI2.WinForms.Guna2Button();
+            this.btnview = new Guna.UI2.WinForms.Guna2Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -42,6 +43,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnview);
             this.panel1.Controls.Add(this.butcreate);
             this.panel1.Controls.Add(this.Lblforget);
             this.panel1.Controls.Add(this.txtmatkhau);
@@ -105,6 +107,7 @@
             this.txtmatkhau.Size = new System.Drawing.Size(354, 45);
             this.txtmatkhau.TabIndex = 4;
             this.txtmatkhau.UseSystemPasswordChar = true;
+            this.txtmatkhau.TextChanged += new System.EventHandler(this.txtmatkhau_TextChanged);
             // 
             // txttaikhoan
             // 
@@ -146,6 +149,24 @@
             this.ButDangnhap.UseTransparentBackground = true;
             this.ButDangnhap.Click += new System.EventHandler(this.ButDangnhap_Click);
             // 
+            // btnview
+            // 
+            this.btnview.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnview.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnview.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnview.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnview.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnview.FillColor = System.Drawing.Color.Tan;
+            this.btnview.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnview.ForeColor = System.Drawing.Color.White;
+            this.btnview.Image = global::Motobike.Properties.Resources.ngu1;
+            this.btnview.ImageSize = new System.Drawing.Size(40, 40);
+            this.btnview.Location = new System.Drawing.Point(392, 219);
+            this.btnview.Name = "btnview";
+            this.btnview.Size = new System.Drawing.Size(45, 45);
+            this.btnview.TabIndex = 7;
+            this.btnview.Click += new System.EventHandler(this.btnview_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -182,5 +203,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtmatkhau;
         private Guna.UI2.WinForms.Guna2TextBox txttaikhoan;
         private Guna.UI2.WinForms.Guna2Button butcreate;
+        private Guna.UI2.WinForms.Guna2Button btnview;
     }
 }

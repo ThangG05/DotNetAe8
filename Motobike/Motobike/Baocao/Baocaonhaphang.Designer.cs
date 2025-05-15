@@ -84,6 +84,7 @@
             this.cbnmnv.Name = "cbnmnv";
             this.cbnmnv.Size = new System.Drawing.Size(121, 29);
             this.cbnmnv.TabIndex = 14;
+            this.cbnmnv.SelectedIndexChanged += new System.EventHandler(this.cbnmnv_SelectedIndexChanged);
             // 
             // cbnncc
             // 
@@ -92,6 +93,7 @@
             this.cbnncc.Name = "cbnncc";
             this.cbnncc.Size = new System.Drawing.Size(121, 29);
             this.cbnncc.TabIndex = 13;
+            this.cbnncc.SelectedIndexChanged += new System.EventHandler(this.cbnncc_SelectedIndexChanged);
             // 
             // cbntenhang
             // 
@@ -100,6 +102,7 @@
             this.cbntenhang.Name = "cbntenhang";
             this.cbntenhang.Size = new System.Drawing.Size(121, 29);
             this.cbntenhang.TabIndex = 12;
+            this.cbntenhang.SelectedIndexChanged += new System.EventHandler(this.cbntenhang_SelectedIndexChanged);
             // 
             // cbnmahd
             // 
@@ -108,6 +111,7 @@
             this.cbnmahd.Name = "cbnmahd";
             this.cbnmahd.Size = new System.Drawing.Size(121, 29);
             this.cbnmahd.TabIndex = 11;
+            this.cbnmahd.SelectedIndexChanged += new System.EventHandler(this.cbnmahd_SelectedIndexChanged);
             // 
             // txtketthuc
             // 

@@ -213,7 +213,7 @@
             this.Controls.Add(this.guna2GroupBox2);
             this.Controls.Add(this.guna2GroupBox1);
             this.Name = "Baocaotopsanpham";
-            this.Text = "Baocaotopsanpham";
+            this.Text = "Hoat Dong Kinh Doanh";
             this.Load += new System.EventHandler(this.Baocaotopsanpham_Load);
             this.guna2GroupBox1.ResumeLayout(false);
             this.guna2GroupBox1.PerformLayout();

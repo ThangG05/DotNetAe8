@@ -3,7 +3,115 @@
   "WorkspaceRootPath": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|d:\\all mon hoc\\.net\\dotnet\\motobike\\motobike\\timkiem\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucmausac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucmausac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|d:\\all mon hoc\\.net\\dotnet\\motobike\\motobike\\baocao\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|d:\\all mon hoc\\.net\\dotnet\\motobike\\motobike\\baocao\\baocaobanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaobanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaobanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaobanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|d:\\all mon hoc\\.net\\dotnet\\motobike\\motobike\\baocao\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\hoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaotopsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaotopsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaohoatdongkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaohoatdongkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\timkiem\\timkiemhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\yamaha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\yamaha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\suzuki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\suzuki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\mathangmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\mathangmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\honda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\honda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\conect\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\conect\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\timkiem\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,16 +127,8 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\index.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuchanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuctheloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,28 +155,12 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucmausac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucmausac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucmausac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmuckhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\timkiem\\timkiemhoadonnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemhoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\timkiem\\timkiemhoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\timkiem\\timkiemhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,24 +171,12 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\timkiem\\timkiemkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\index.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\mathangmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\mathangmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaohoatdongkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaohoatdongkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaohoatdongkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaohoatdongkinhdoanh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\inhoatdongkinhdaonh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,18 +185,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\inbaocaotopsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\inbaocaotopsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaonhaphang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaotopsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaotopsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\timkiemkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,14 +201,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\hoadon\\hoadonmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -171,20 +223,8 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\index2.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\quanmk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\acc\\dangky.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaobanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaobanhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\acc\\quanmk.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -219,14 +259,6 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\hoadon\\hoadonban.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\suzuki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\suzuki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\honda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\honda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\header\\baocaologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\header\\baocaologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -243,16 +275,8 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\honda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\conect\\ketnoixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\conect\\ketnoixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\hoadonban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\timkiem\\thongtinkhach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -299,10 +323,6 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\yamaha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\yamaha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\yamaha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\mathang\\suzuki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\suzuki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -343,16 +363,8 @@
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\mathang\\in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\conect\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\conect\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\baocao\\baocaomain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\baocao\\baocaomain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|solutionrelative:motobike\\danhmuc\\danhmucchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36E4576B-94BF-43C6-BF9C-24968324C999}|Motobike\\Motobike.csproj|D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\motobike\\hoadon\\hoadonmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -390,24 +402,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 8,
               "Title": "Dangnhap.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Dangnhap.cs",
-              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangnhap.cs",
-              "RelativeToolTip": "Motobike\\ACC\\Dangnhap.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangnhap.cs*",
+              "RelativeToolTip": "Motobike\\ACC\\Dangnhap.cs*",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T04:42:33.344Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 47,
               "Title": "Dangky.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangky.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Dangky.cs",
@@ -420,20 +433,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 5,
               "Title": "DanhMucChinh.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\DanhMucChinh.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\DanhMucChinh.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\DanhMucChinh.cs",
               "RelativeToolTip": "Motobike\\Danhmuc\\DanhMucChinh.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAiwFoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T15:36:17.32Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 20,
               "Title": "Suzuki.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Suzuki.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Suzuki.cs",
@@ -441,11 +455,12 @@
               "RelativeToolTip": "Motobike\\Mathang\\Suzuki.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T11:39:35.411Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "Mathangmain.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Mathangmain.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Mathangmain.cs",
@@ -453,11 +468,12 @@
               "RelativeToolTip": "Motobike\\Mathang\\Mathangmain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T11:39:06.294Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 81,
               "Title": "Mathangmain.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Mathangmain.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Mathangmain.cs",
@@ -466,11 +482,12 @@
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwCwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T12:44:34.522Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 82,
               "Title": "Hoadonmain.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonmain.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonmain.cs",
@@ -483,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 33,
               "Title": "Danhmuctheloai.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuctheloai.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuctheloai.cs",
@@ -495,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 42,
               "Title": "Index.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Index.cs",
               "RelativeDocumentMoniker": "Motobike\\Index.cs",
@@ -508,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 83,
               "Title": "Baocaomain.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaomain.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaomain.cs",
@@ -517,11 +534,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T17:00:03.474Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "Hoadonnhap.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonnhap.cs",
@@ -534,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "Hoadonban.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonban.cs",
@@ -547,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 40,
               "Title": "timkiemhanghoa.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhanghoa.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhanghoa.cs",
@@ -556,11 +574,12 @@
               "ViewState": "AgIAAG8BAAAAAAAAAAAowIQBAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T14:56:39.783Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 28,
               "Title": "timkiemhoadonban.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhoadonban.cs",
@@ -573,21 +592,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 27,
               "Title": "timkiemhoadonnhap.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhoadonnhap.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonnhap.cs",
               "RelativeToolTip": "Motobike\\Timkiem\\timkiemhoadonnhap.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAawFgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAawFgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-27T12:35:36.582Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 46,
               "Title": "timkiemkhachhang.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemkhachhang.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemkhachhang.cs",
@@ -616,7 +634,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 13,
+              "Title": "Hoadonnhap.cs",
+              "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Hoadonnhap.cs",
+              "RelativeDocumentMoniker": "Motobike\\Baocao\\Hoadonnhap.cs",
+              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Hoadonnhap.cs",
+              "RelativeToolTip": "Motobike\\Baocao\\Hoadonnhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:46:15.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Baocaonhaphang.cs",
+              "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaonhaphang.cs",
+              "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaonhaphang.cs",
+              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaonhaphang.cs",
+              "RelativeToolTip": "Motobike\\Baocao\\Baocaonhaphang.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAgwGYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:15:57.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Baocaobanhang.cs",
+              "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaobanhang.cs",
+              "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaobanhang.cs",
+              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaobanhang.cs",
+              "RelativeToolTip": "Motobike\\Baocao\\Baocaobanhang.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAowEsBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:01:11.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "inbaocaotopsanpham.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\inbaocaotopsanpham.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\inbaocaotopsanpham.cs",
@@ -628,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "inhoatdongkinhdaonh.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\inhoatdongkinhdaonh.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\inhoatdongkinhdaonh.cs",
@@ -640,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 43,
               "Title": "Baocaohoatdongkinhdoanh.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs",
@@ -648,11 +705,12 @@
               "RelativeToolTip": "Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs",
               "ViewState": "AgIAAIIBAAAAAAAAAAAcwJMBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T18:00:19.91Z"
+              "WhenOpened": "2025-05-10T18:00:19.91Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "Index2.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Index2.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Index2.Designer.cs",
@@ -664,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 55,
               "Title": "Dangky.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangky.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Dangky.Designer.cs",
@@ -676,19 +734,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Danhmuchanghoa.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuchanghoa.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuchanghoa.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuchanghoa.cs",
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmuchanghoa.cs",
-              "ViewState": "AgIAAG8BAAAAAAAAAAAwwIIBAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAGABAAAAAAAAAAAwwHABAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T07:01:18.703Z"
+              "WhenOpened": "2025-05-08T07:01:18.703Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 35,
               "Title": "Danhmucnhacungcap.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucnhacungcap.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucnhacungcap.cs",
@@ -700,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 37,
               "Title": "Danhmucmausac.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucmausac.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucmausac.cs",
@@ -708,11 +767,12 @@
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmucmausac.cs",
               "ViewState": "AgIAAJkAAAAAAAAAAAAwwK8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T06:56:16.532Z"
+              "WhenOpened": "2025-05-08T06:56:16.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "Danhmuckhachhang.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuckhachhang.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuckhachhang.Designer.cs",
@@ -720,78 +780,85 @@
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmuckhachhang.Designer.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAhwL4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T06:27:52.526Z"
+              "WhenOpened": "2025-05-08T06:27:52.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "Danhmuckhachhang.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuckhachhang.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuckhachhang.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuckhachhang.cs",
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmuckhachhang.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwKsAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAkwEwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T06:27:42.235Z"
+              "WhenOpened": "2025-05-08T06:27:42.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 15,
               "Title": "Baocaomain.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaomain.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaomain.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaomain.cs [Design]",
               "RelativeToolTip": "Motobike\\Baocao\\Baocaomain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:20:19.601Z"
+              "WhenOpened": "2025-04-12T13:20:19.601Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 10,
               "Title": "Baocaonhaphang.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaonhaphang.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaonhaphang.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaonhaphang.cs [Design]",
               "RelativeToolTip": "Motobike\\Baocao\\Baocaonhaphang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:15:06.613Z"
+              "WhenOpened": "2025-04-23T16:15:06.613Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 17,
               "Title": "Baocaohoatdongkinhdoanh.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs [Design]",
               "RelativeToolTip": "Motobike\\Baocao\\Baocaohoatdongkinhdoanh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:15:20.976Z"
+              "WhenOpened": "2025-04-23T16:15:20.976Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 12,
               "Title": "Baocaobanhang.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaobanhang.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaobanhang.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaobanhang.cs [Design]",
               "RelativeToolTip": "Motobike\\Baocao\\Baocaobanhang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:14:53.766Z"
+              "WhenOpened": "2025-04-23T16:14:53.766Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 16,
               "Title": "Baocaotopsanpham.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaotopsanpham.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaotopsanpham.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaotopsanpham.cs [Design]",
               "RelativeToolTip": "Motobike\\Baocao\\Baocaotopsanpham.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T16:15:34.116Z"
+              "WhenOpened": "2025-04-23T16:15:34.116Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 14,
               "Title": "Hoadonban.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Hoadonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Hoadonban.cs",
@@ -799,11 +866,12 @@
               "RelativeToolTip": "Motobike\\Baocao\\Hoadonban.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T18:31:52.394Z"
+              "WhenOpened": "2025-05-06T18:31:52.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 41,
               "Title": "timkiemkhachhang.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemkhachhang.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemkhachhang.cs",
@@ -814,7 +882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 38,
               "Title": "timkiemhoadonnhap.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhoadonnhap.cs",
@@ -825,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 39,
               "Title": "timkiemhoadonban.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhoadonban.cs",
@@ -843,11 +911,12 @@
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhanghoa.cs [Design]",
               "RelativeToolTip": "Motobike\\Timkiem\\timkiemhanghoa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T02:07:59.33Z"
+              "WhenOpened": "2025-04-17T02:07:59.33Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "Thongtinkhach.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Thongtinkhach.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Thongtinkhach.cs",
@@ -859,7 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "Hoadonnhap.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonnhap.cs",
@@ -870,7 +939,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "Hoadonmain.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonmain.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonmain.cs",
@@ -881,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "Hoadonban.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonban.cs",
@@ -892,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "timkiemkhachhang.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemkhachhang.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemkhachhang.Designer.cs",
@@ -904,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "timkiemhoadonban.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonban.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhoadonban.Designer.cs",
@@ -916,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "Timkiemmain.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Timkiemmain.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Timkiemmain.cs",
@@ -928,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "Timkiemmain.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Timkiemmain.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Timkiemmain.Designer.cs",
@@ -940,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 75,
               "Title": "timkiemhanghoa.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhanghoa.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhanghoa.Designer.cs",
@@ -948,11 +1017,12 @@
               "RelativeToolTip": "Motobike\\Timkiem\\timkiemhanghoa.Designer.cs",
               "ViewState": "AgIAAPoBAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T14:56:49.03Z"
+              "WhenOpened": "2025-04-23T14:56:49.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 74,
               "Title": "timkiemhoadonnhap.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\timkiemhoadonnhap.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\timkiemhoadonnhap.Designer.cs",
@@ -964,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 76,
               "Title": "Thongtinhang.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Thongtinhang.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Thongtinhang.cs",
@@ -976,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 77,
               "Title": "Thongtindonnhap.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Thongtindonnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Thongtindonnhap.cs",
@@ -988,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 78,
               "Title": "Thongtindonban.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Thongtindonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Thongtindonban.cs",
@@ -1000,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 36,
               "Title": "Danhmucnhacungcap.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucnhacungcap.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucnhacungcap.cs",
@@ -1011,29 +1081,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 2,
               "Title": "Danhmucmausac.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucmausac.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucmausac.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucmausac.cs [Design]",
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmucmausac.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:17:02.532Z"
+              "WhenOpened": "2025-04-09T15:17:02.532Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 4,
               "Title": "Danhmuckhachhang.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuckhachhang.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuckhachhang.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuckhachhang.cs [Design]",
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmuckhachhang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:17:27.048Z"
+              "WhenOpened": "2025-04-09T15:17:27.048Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 34,
               "Title": "Danhmucnhanvien.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucnhanvien.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucnhanvien.cs",
@@ -1044,29 +1116,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Danhmuchanghoa.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuchanghoa.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuchanghoa.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuchanghoa.cs [Design]",
               "RelativeToolTip": "Motobike\\Danhmuc\\Danhmuchanghoa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:18:10.951Z"
+              "WhenOpened": "2025-04-09T15:18:10.951Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 6,
               "Title": "DanhMucChinh.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\DanhMucChinh.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\DanhMucChinh.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\DanhMucChinh.cs [Design]",
               "RelativeToolTip": "Motobike\\Danhmuc\\DanhMucChinh.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T15:53:35.729Z"
+              "WhenOpened": "2025-04-09T15:53:35.729Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 79,
               "Title": "Yamaha.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Yamaha.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Yamaha.cs",
@@ -1074,22 +1148,24 @@
               "RelativeToolTip": "Motobike\\Mathang\\Yamaha.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAQwFUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:54:15.283Z"
+              "WhenOpened": "2025-05-06T17:54:15.283Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 22,
               "Title": "Honda.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Honda.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Honda.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Honda.cs [Design]",
               "RelativeToolTip": "Motobike\\Mathang\\Honda.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:53:22.313Z"
+              "WhenOpened": "2025-05-06T17:53:22.313Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "Honda.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Honda.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Honda.cs",
@@ -1097,11 +1173,12 @@
               "RelativeToolTip": "Motobike\\Mathang\\Honda.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowEAAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T17:53:24.795Z"
+              "WhenOpened": "2025-05-06T17:53:24.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 80,
               "Title": "Suzuki.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Suzuki.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Suzuki.cs",
@@ -1109,22 +1186,24 @@
               "RelativeToolTip": "Motobike\\Mathang\\Suzuki.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAiwFIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T12:56:16.822Z"
+              "WhenOpened": "2025-04-17T12:56:16.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 19,
               "Title": "Yamaha.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Yamaha.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Yamaha.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Yamaha.cs [Design]",
               "RelativeToolTip": "Motobike\\Mathang\\Yamaha.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:39:24.291Z"
+              "WhenOpened": "2025-04-17T11:39:24.291Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 24,
               "Title": "App.config",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\App.config",
               "RelativeDocumentMoniker": "Motobike\\App.config",
@@ -1132,11 +1211,12 @@
               "RelativeToolTip": "Motobike\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-22T03:20:50.849Z"
+              "WhenOpened": "2025-04-22T03:20:50.849Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 95,
               "Title": "banhangxe.rdlc [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\ShopMotobike\\Motobike\\Motobike\\Hoadon\\banhangxe.rdlc",
               "RelativeDocumentMoniker": "..\\..\\ShopMotobike\\Motobike\\Motobike\\Hoadon\\banhangxe.rdlc",
@@ -1148,7 +1228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 23,
               "Title": "KetNoi.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\CONECT\\KetNoi.cs",
               "RelativeDocumentMoniker": "Motobike\\CONECT\\KetNoi.cs",
@@ -1160,7 +1240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 86,
               "Title": "HoadonnhapCT.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\HoadonnhapCT.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\HoadonnhapCT.cs",
@@ -1172,7 +1252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 89,
               "Title": "In.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\In.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\In.cs",
@@ -1184,7 +1264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 85,
               "Title": "FillData.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\CONECT\\FillData.cs",
               "RelativeDocumentMoniker": "Motobike\\CONECT\\FillData.cs",
@@ -1196,7 +1276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 88,
               "Title": "Inhoadonnhap.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Inhoadonnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Inhoadonnhap.cs",
@@ -1208,7 +1288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 87,
               "Title": "Inhoadonban.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Inhoadonban.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Inhoadonban.cs",
@@ -1220,7 +1300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 62,
               "Title": "HoadonbanCT.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\HoadonbanCT.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\HoadonbanCT.cs",
@@ -1232,7 +1312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "Hoadonnhap.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonnhap.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonnhap.Designer.cs",
@@ -1244,7 +1324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "KetNoiXE.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\CONECT\\KetNoiXE.cs",
               "RelativeDocumentMoniker": "Motobike\\CONECT\\KetNoiXE.cs",
@@ -1256,7 +1336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "Baocaomain.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Baocao\\Baocaomain.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Baocao\\Baocaomain.Designer.cs",
@@ -1264,11 +1344,12 @@
               "RelativeToolTip": "Motobike\\Baocao\\Baocaomain.Designer.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAArwFQAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:01:50.549Z"
+              "WhenOpened": "2025-04-23T17:01:50.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 63,
               "Title": "Hoadonban.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonban.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonban.Designer.cs",
@@ -1280,7 +1361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 91,
               "Title": "Hoadonmain.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Hoadon\\Hoadonmain.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Hoadon\\Hoadonmain.Designer.cs",
@@ -1292,7 +1373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 66,
               "Title": "Danhmucnhanvien.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucnhanvien.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucnhanvien.Designer.cs",
@@ -1304,7 +1385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 31,
               "Title": "Danhmucnhanvien.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmucnhanvien.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmucnhanvien.cs",
@@ -1316,7 +1397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 92,
               "Title": "Danhmuctheloai.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuctheloai.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuctheloai.Designer.cs",
@@ -1328,7 +1409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 32,
               "Title": "Danhmuctheloai.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Danhmuc\\Danhmuctheloai.cs",
               "RelativeDocumentMoniker": "Motobike\\Danhmuc\\Danhmuctheloai.cs",
@@ -1340,7 +1421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "Quanmk.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Quanmk.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Quanmk.Designer.cs",
@@ -1352,19 +1433,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 25,
               "Title": "Quanmk.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Quanmk.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Quanmk.cs",
               "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Quanmk.cs",
               "RelativeToolTip": "Motobike\\ACC\\Quanmk.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAADgvz8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T17:42:12.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 26,
               "Title": "Quanmk.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Quanmk.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Quanmk.cs",
@@ -1375,7 +1456,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 84,
               "Title": "Mathangmain.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Mathang\\Mathangmain.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Mathang\\Mathangmain.Designer.cs",
@@ -1383,11 +1464,12 @@
               "RelativeToolTip": "Motobike\\Mathang\\Mathangmain.Designer.cs",
               "ViewState": "AgIAAGoAAAAAAAAAAAAwwH8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T02:00:49.43Z"
+              "WhenOpened": "2025-04-18T02:00:49.43Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 93,
               "Title": "Mathanglogo.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Header\\Mathanglogo.cs",
               "RelativeDocumentMoniker": "Motobike\\Header\\Mathanglogo.cs",
@@ -1398,7 +1480,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 97,
               "Title": "timkiemhoadonnhaphang.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\ShopMotobike\\Motobike\\Motobike\\Timkiem\\timkiemhoadonnhaphang.cs",
               "RelativeDocumentMoniker": "..\\..\\ShopMotobike\\Motobike\\Motobike\\Timkiem\\timkiemhoadonnhaphang.cs",
@@ -1409,7 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 98,
               "Title": "timkiemhoadonbanhang.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\ShopMotobike\\Motobike\\Motobike\\Timkiem\\timkiemhoadonbanhang.cs",
               "RelativeDocumentMoniker": "..\\..\\ShopMotobike\\Motobike\\Motobike\\Timkiem\\timkiemhoadonbanhang.cs",
@@ -1420,7 +1502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 64,
               "Title": "Baocaologo.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Header\\Baocaologo.cs",
               "RelativeDocumentMoniker": "Motobike\\Header\\Baocaologo.cs",
@@ -1431,7 +1513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 94,
               "Title": "Timkiemlogo.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Header\\Timkiemlogo.cs",
               "RelativeDocumentMoniker": "Motobike\\Header\\Timkiemlogo.cs",
@@ -1442,7 +1524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 48,
               "Title": "Timkiemmain.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Timkiem\\Timkiemmain.cs",
               "RelativeDocumentMoniker": "Motobike\\Timkiem\\Timkiemmain.cs",
@@ -1453,7 +1535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 96,
               "Title": "Hanghoalogo.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\ShopMotobike\\Motobike\\Motobike\\Header\\Hanghoalogo.cs",
               "RelativeDocumentMoniker": "..\\..\\ShopMotobike\\Motobike\\Motobike\\Header\\Hanghoalogo.cs",
@@ -1464,7 +1546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 30,
               "Title": "Index.Designer.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Index.Designer.cs",
               "RelativeDocumentMoniker": "Motobike\\Index.Designer.cs",
@@ -1476,7 +1558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "Danhmuclogo.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Header\\Danhmuclogo.cs",
               "RelativeDocumentMoniker": "Motobike\\Header\\Danhmuclogo.cs",
@@ -1487,18 +1569,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 7,
               "Title": "Dangnhap.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangnhap.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Dangnhap.cs",
-              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangnhap.cs [Design]",
-              "RelativeToolTip": "Motobike\\ACC\\Dangnhap.cs [Design]",
+              "ToolTip": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangnhap.cs [Design]*",
+              "RelativeToolTip": "Motobike\\ACC\\Dangnhap.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T03:06:18.29Z"
+              "WhenOpened": "2025-03-31T03:06:18.29Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 49,
               "Title": "Dangky.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\ACC\\Dangky.cs",
               "RelativeDocumentMoniker": "Motobike\\ACC\\Dangky.cs",
@@ -1509,7 +1592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "Index2.cs",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Index2.cs",
               "RelativeDocumentMoniker": "Motobike\\Index2.cs",
@@ -1521,7 +1604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "Index2.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Index2.cs",
               "RelativeDocumentMoniker": "Motobike\\Index2.cs",
@@ -1532,7 +1615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 29,
               "Title": "Index.cs [Design]",
               "DocumentMoniker": "D:\\ALL MON HOC\\.NET\\DotNet\\Motobike\\Motobike\\Index.cs",
               "RelativeDocumentMoniker": "Motobike\\Index.cs",

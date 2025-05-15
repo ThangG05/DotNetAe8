@@ -593,6 +593,10 @@
     <None Include="Resources\folder1.png" />
     <None Include="Resources\avt.png" />
     <None Include="Resources\chatgpt.png" />
+    <None Include="Resources\7787574_blind_eye_view_vision_magnifier_icon.png" />
+    <None Include="Resources\ngu.png" />
+    <None Include="Resources\thuc.png" />
+    <None Include="Resources\ngu1.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

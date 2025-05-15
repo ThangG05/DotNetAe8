@@ -114,6 +114,11 @@ namespace Motobike.Baocao
             txtketthuc.Visible = false;
             lblbdau.Visible = false;
             lblketthuc.Visible = false;
+            cbnmahd.Enabled = true;
+            cbnmnv.Enabled = true;
+            cbnncc.Enabled = true;
+            cbntenhang.Enabled = true;
+            dgvhoadonnhap.DataSource = null;
         }
         private void hienthi(string Tenbang, string Tencot, string value)
         {
@@ -123,21 +128,22 @@ namespace Motobike.Baocao
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = @"SELECT 
-                                HoaDonNhap_New.SoHDN,
-                                HoaDonNhap_New.NgayNhap,
-                                NhanVien.TenNV,
-                                NhaCungCap.TenNCC,
-                                DMHang.TenHang,
-	                            CTHoaDonNhap.SoLuong,
-	                            CTHoaDonNhap.DonGia,
-	                            CTHoaDonNhap.GiamGia,
-                                HoaDonNhap_New.TongTien
-                            FROM HoaDonNhap_New
-                            JOIN NhanVien ON HoaDonNhap_New.MaNV = NhanVien.MaNV
-                            JOIN NhaCungCap ON HoaDonNhap_New.MaNCC = NhaCungCap.MaNCC
-                            JOIN CTHoaDonNhap ON HoaDonNhap_New.SoHDN = CTHoaDonNhap.SoHDN
-                            JOIN DMHang ON CTHoaDonNhap.MaHang = DMHang.MaHang
-                            where "+Tenbang+"."+Tencot+"=N'"+value+"'";
+                     HoaDonNhap_New.SoHDN,
+                     HoaDonNhap_New.NgayNhap,
+                     ISNULL(NhanVien.TenNV, '') AS TenNV,
+                     ISNULL(NhaCungCap.TenNCC, '') AS TenNCC,
+                     DMHang.TenHang,
+                     CTHoaDonNhap.SoLuong,
+                     CTHoaDonNhap.DonGia,
+                     CTHoaDonNhap.GiamGia,
+                     HoaDonNhap_New.TongTien
+                 FROM HoaDonNhap_New
+                 LEFT JOIN NhanVien ON HoaDonNhap_New.MaNV = NhanVien.MaNV
+                 LEFT JOIN NhaCungCap ON HoaDonNhap_New.MaNCC = NhaCungCap.MaNCC
+                 JOIN CTHoaDonNhap ON HoaDonNhap_New.SoHDN = CTHoaDonNhap.SoHDN
+                 JOIN DMHang ON CTHoaDonNhap.MaHang = DMHang.MaHang
+                 WHERE " + Tenbang + "." + Tencot + " = @value";
+            cmd.Parameters.AddWithValue("@value", value);
             cmd.Connection = conn;
             List<Hoadonnhap> ds = new List<Hoadonnhap>();
             Hoadonnhap hd;
@@ -216,22 +222,22 @@ namespace Motobike.Baocao
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = @"SELECT 
-                                    HoaDonNhap_New.SoHDN,
-                                    HoaDonNhap_New.NgayNhap,
-                                    NhanVien.TenNV,
-                                    NhaCungCap.TenNCC,
-                                    DMHang.TenHang,
-	                                CTHoaDonNhap.SoLuong,
-	                                CTHoaDonNhap.DonGia,
-	                                CTHoaDonNhap.GiamGia,
-                                    HoaDonNhap_New.TongTien
-                                FROM HoaDonNhap_New
-                                JOIN NhanVien ON HoaDonNhap_New.MaNV = NhanVien.MaNV
-                                JOIN NhaCungCap ON HoaDonNhap_New.MaNCC = NhaCungCap.MaNCC
-                                JOIN CTHoaDonNhap ON HoaDonNhap_New.SoHDN = CTHoaDonNhap.SoHDN
-                                JOIN DMHang ON CTHoaDonNhap.MaHang = DMHang.MaHang
-                                WHERE HoaDonNhap_New.NgayNhap BETWEEN @bdau AND @kthuc";
-                                   
+                      HoaDonNhap_New.SoHDN,
+                      HoaDonNhap_New.NgayNhap,
+                      ISNULL(NhanVien.TenNV, 'N/A') AS TenNV,
+                      ISNULL(NhaCungCap.TenNCC, 'N/A') AS TenNCC,
+                      DMHang.TenHang,
+                      CTHoaDonNhap.SoLuong,
+                      CTHoaDonNhap.DonGia,
+                      CTHoaDonNhap.GiamGia,
+                      HoaDonNhap_New.TongTien
+                  FROM HoaDonNhap_New
+                  LEFT JOIN NhanVien ON HoaDonNhap_New.MaNV = NhanVien.MaNV
+                  LEFT JOIN NhaCungCap ON HoaDonNhap_New.MaNCC = NhaCungCap.MaNCC
+                  JOIN CTHoaDonNhap ON HoaDonNhap_New.SoHDN = CTHoaDonNhap.SoHDN
+                  JOIN DMHang ON CTHoaDonNhap.MaHang = DMHang.MaHang
+                  WHERE HoaDonNhap_New.NgayNhap BETWEEN @bdau AND @kthuc";
+
                 cmd.Parameters.AddWithValue("@bdau", ngayChon.Date);
                 cmd.Parameters.AddWithValue("@kthuc", ngayChon2.Date);
                 cmd.Connection = conn;
@@ -328,6 +334,34 @@ namespace Motobike.Baocao
                     MessageBox.Show("Xuất file thấy bại" + ex.Message);
                 }
             }
+        }
+
+        private void cbnmahd_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbnmnv.Enabled = false;
+            cbnncc.Enabled = false;
+            cbntenhang.Enabled = false;
+        }
+
+        private void cbnncc_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbntenhang.Enabled = false;
+            cbnmahd.Enabled = false;
+            cbnmnv.Enabled = false;
+        }
+
+        private void cbntenhang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbnmahd.Enabled = false;
+            cbnmnv.Enabled = false;
+            cbnncc.Enabled = false;
+        }
+
+        private void cbnmnv_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbnncc.Enabled=false;
+            cbntenhang.Enabled=false;
+            cbnmahd.Enabled=false;
         }
     }
 }

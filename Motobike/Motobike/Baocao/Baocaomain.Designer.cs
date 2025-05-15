@@ -61,13 +61,13 @@
             this.btnsanpham.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnsanpham.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnsanpham.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnsanpham.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnsanpham.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsanpham.ForeColor = System.Drawing.Color.White;
             this.btnsanpham.Location = new System.Drawing.Point(954, 3);
             this.btnsanpham.Name = "btnsanpham";
             this.btnsanpham.Size = new System.Drawing.Size(180, 45);
             this.btnsanpham.TabIndex = 3;
-            this.btnsanpham.Text = "Top sản phẩm";
+            this.btnsanpham.Text = "Hoạt động kinh doanh";
             this.btnsanpham.Click += new System.EventHandler(this.btnsanpham_Click);
             // 
             // btnkinhdoanh
@@ -78,13 +78,13 @@
             this.btnkinhdoanh.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnkinhdoanh.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnkinhdoanh.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnkinhdoanh.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnkinhdoanh.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnkinhdoanh.ForeColor = System.Drawing.Color.White;
             this.btnkinhdoanh.Location = new System.Drawing.Point(635, 3);
             this.btnkinhdoanh.Name = "btnkinhdoanh";
             this.btnkinhdoanh.Size = new System.Drawing.Size(180, 45);
             this.btnkinhdoanh.TabIndex = 2;
-            this.btnkinhdoanh.Text = "Hoạt động kinh doanh";
+            this.btnkinhdoanh.Text = "Top sản phẩm";
             this.btnkinhdoanh.Click += new System.EventHandler(this.btnkinhdoanh_Click);
             // 
             // btnbanhang
@@ -95,7 +95,7 @@
             this.btnbanhang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnbanhang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnbanhang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnbanhang.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbanhang.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnbanhang.ForeColor = System.Drawing.Color.White;
             this.btnbanhang.Location = new System.Drawing.Point(302, 3);
             this.btnbanhang.Name = "btnbanhang";
@@ -112,7 +112,7 @@
             this.btnnhaphang.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnnhaphang.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.btnnhaphang.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnnhaphang.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnnhaphang.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnnhaphang.ForeColor = System.Drawing.Color.White;
             this.btnnhaphang.Location = new System.Drawing.Point(12, 3);
             this.btnnhaphang.Name = "btnnhaphang";

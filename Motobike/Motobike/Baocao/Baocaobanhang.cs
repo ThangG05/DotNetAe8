@@ -159,19 +159,20 @@ namespace Motobike.Baocao
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = @"SELECT 
-                            DonDatHang.SoDDH,
-                            NhanVien.TenNV, 
-                            KhachHang.TenKH, 
-                            DMHang.TenHang,
-                            DonDatHang.NgayMua, 
-                            DonDatHang.Thue,
-                            DonDatHang.TongTien
-                        FROM DonDatHang
-                        JOIN NhanVien ON DonDatHang.MaNV = NhanVien.MaNV
-                        JOIN KhachHang ON DonDatHang.MaKH = KhachHang.MaKH
-                        JOIN CTDonDatHang ON DonDatHang.SoDDH = CTDonDatHang.SoDDH
-                        JOIN DMHang ON CTDonDatHang.MaHang = DMHang.MaHang
-                        WHERE "+Tenbang+"."+Tencot+" = N'"+value+"';";
+                                DonDatHang.SoDDH,
+                                ISNULL(NhanVien.TenNV, 'N/A') AS TenNV, 
+                                ISNULL(KhachHang.TenKH, 'N/A') AS TenKH, 
+                                DMHang.TenHang,
+                                DonDatHang.NgayMua, 
+                                DonDatHang.Thue,
+                                DonDatHang.TongTien
+                            FROM DonDatHang
+                            LEFT JOIN NhanVien ON DonDatHang.MaNV = NhanVien.MaNV
+                            LEFT JOIN KhachHang ON DonDatHang.MaKH = KhachHang.MaKH
+                            JOIN CTDonDatHang ON DonDatHang.SoDDH = CTDonDatHang.SoDDH
+                            JOIN DMHang ON CTDonDatHang.MaHang = DMHang.MaHang
+                            WHERE " + Tenbang + "." + Tencot + " = @value";
+            cmd.Parameters.AddWithValue("@value", value);
             cmd.Connection = conn;
             List<Hoadonban> ds= new List<Hoadonban>();
             Hoadonban hd;
@@ -247,20 +248,21 @@ namespace Motobike.Baocao
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
                 cmd.CommandText = @"
-                                    SELECT 
-                                        DonDatHang.SoDDH,
-                                        NhanVien.TenNV, 
-                                        KhachHang.TenKH, 
-                                        DMHang.TenHang,
-                                        DonDatHang.NgayMua, 
-                                        DonDatHang.Thue,
-                                        DonDatHang.TongTien
-                                    FROM DonDatHang
-                                    JOIN NhanVien ON DonDatHang.MaNV = NhanVien.MaNV
-                                    JOIN KhachHang ON DonDatHang.MaKH = KhachHang.MaKH
-                                    JOIN CTDonDatHang ON DonDatHang.SoDDH = CTDonDatHang.SoDDH
-                                    JOIN DMHang ON CTDonDatHang.MaHang = DMHang.MaHang
-                                    WHERE DonDatHang.NgayMua BETWEEN @bdau AND @kthuc";
+                                SELECT 
+                                    DonDatHang.SoDDH,
+                                    ISNULL(NhanVien.TenNV, '') AS TenNV, 
+                                    ISNULL(KhachHang.TenKH, '') AS TenKH, 
+                                    DMHang.TenHang,
+                                    DonDatHang.NgayMua, 
+                                    DonDatHang.Thue,
+                                    DonDatHang.TongTien
+                                FROM DonDatHang
+                                LEFT JOIN NhanVien ON DonDatHang.MaNV = NhanVien.MaNV
+                                LEFT JOIN KhachHang ON DonDatHang.MaKH = KhachHang.MaKH
+                                JOIN CTDonDatHang ON DonDatHang.SoDDH = CTDonDatHang.SoDDH
+                                JOIN DMHang ON CTDonDatHang.MaHang = DMHang.MaHang
+                                WHERE DonDatHang.NgayMua BETWEEN @bdau AND @kthuc";
+
                 cmd.Parameters.AddWithValue("@bdau", ngayChon.Date);
                 cmd.Parameters.AddWithValue("@kthuc", ngayChon2.Date);
                 cmd.Connection = conn;
@@ -323,8 +325,43 @@ namespace Motobike.Baocao
             txtketthuc.Visible= false;
             lbldau.Visible=false;
             lblketthuc.Visible=false;
+            cbntenhang.Enabled=true;
+            cbnmnv.Enabled=true;
+            cbnmahd.Enabled=true;
+            cbntenkhach.Enabled=true;
+            dgvbaocaoban.DataSource = null; 
            
 
+        }
+
+        private void cbnmahd_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+            cbnmnv.Enabled = false;
+            cbntenhang.Enabled = false;
+            cbntenkhach.Enabled = false; 
+
+        }
+
+        private void cbntenkhach_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbnmahd.Enabled = false;
+            cbnmnv.Enabled = false;
+            cbntenhang.Enabled = false;
+        }
+
+        private void cbnmnv_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbnmahd.Enabled= false;
+            cbntenhang.Enabled= false;
+            cbntenkhach.Enabled= false;
+        }
+
+        private void cbntenhang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbnmahd.Enabled=! false;
+            cbnmnv.Enabled= false;
+            cbntenkhach.Enabled=! false;
         }
     }
 }

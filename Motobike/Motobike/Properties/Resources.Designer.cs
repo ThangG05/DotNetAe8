@@ -63,6 +63,16 @@ namespace Motobike.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _7787574_blind_eye_view_vision_magnifier_icon {
+            get {
+                object obj = ResourceManager.GetObject("7787574_blind_eye_view_vision_magnifier_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap add {
             get {
                 object obj = ResourceManager.GetObject("add", resourceCulture);
@@ -383,6 +393,26 @@ namespace Motobike.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ngu {
+            get {
+                object obj = ResourceManager.GetObject("ngu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ngu1 {
+            get {
+                object obj = ResourceManager.GetObject("ngu1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap okkkkheader {
             get {
                 object obj = ResourceManager.GetObject("okkkkheader", resourceCulture);
@@ -536,6 +566,16 @@ namespace Motobike.Properties {
         internal static System.Drawing.Bitmap suzukiraider {
             get {
                 object obj = ResourceManager.GetObject("suzukiraider", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thuc {
+            get {
+                object obj = ResourceManager.GetObject("thuc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

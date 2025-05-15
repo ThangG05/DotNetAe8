@@ -231,6 +231,7 @@
             // btnluu
             // 
             this.btnluu.BorderRadius = 17;
+            this.btnluu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnluu.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnluu.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnluu.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -249,6 +250,7 @@
             // btnsua
             // 
             this.btnsua.BorderRadius = 17;
+            this.btnsua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsua.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnsua.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnsua.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -267,6 +269,7 @@
             // btnboqua
             // 
             this.btnboqua.BorderRadius = 17;
+            this.btnboqua.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnboqua.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnboqua.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnboqua.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -285,6 +288,7 @@
             // btnthem
             // 
             this.btnthem.BorderRadius = 17;
+            this.btnthem.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnthem.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnthem.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnthem.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -303,6 +307,7 @@
             // btnxoa
             // 
             this.btnxoa.BorderRadius = 17;
+            this.btnxoa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnxoa.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.btnxoa.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.btnxoa.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));

@@ -73,5 +73,25 @@ namespace Motobike.ACC
             Quanmk quen=new Quanmk();
             quen.Show();
         }
+
+        private void btnview_Click(object sender, EventArgs e)
+        {
+            if (txtmatkhau.UseSystemPasswordChar == true) 
+            {
+
+                txtmatkhau.UseSystemPasswordChar = false; 
+                btnview.Image = Properties.Resources.thuc;
+            }
+            else
+            {
+                txtmatkhau.UseSystemPasswordChar = true; 
+                btnview.Image = Properties.Resources.ngu;
+            }
+        }
+
+        private void txtmatkhau_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
