@@ -12,6 +12,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Motobike.ACC;
 
 namespace Motobike.Baocao
 {
@@ -21,18 +22,23 @@ namespace Motobike.Baocao
         {
             InitializeComponent();
         }
-        private int Kinhte(string tenbang,string tencot ,string batdau,string ketthuc)
+        private int Kinhte(string tenbang, string tencot, DateTime batdau, DateTime ketthuc)
         {
             SqlConnection conn = null;
             CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
             conn = ketNoi.CON();
+
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = @"SELECT 
-                                SUM(TongTien) AS 'Tổng Tiền'
-                            FROM "+tenbang+
-                            " WHERE "+tencot+" BETWEEN '"+batdau+"' AND '"+ketthuc+"';";
+            cmd.CommandText = $@"SELECT 
+                            SUM(TongTien) AS [Tổng Tiền]
+                         FROM {tenbang}
+                         WHERE {tencot} BETWEEN @batdau AND @ketthuc";
+
+            cmd.Parameters.AddWithValue("@batdau", batdau);
+            cmd.Parameters.AddWithValue("@ketthuc", ketthuc);
             cmd.Connection = conn;
+
             SqlDataReader rdr = cmd.ExecuteReader();
             int tien = 0;
             while (rdr.Read())
@@ -40,51 +46,34 @@ namespace Motobike.Baocao
                 tien = rdr.IsDBNull(0) ? 0 : rdr.GetInt32(0);
             }
             rdr.Close();
-            return tien;    
+            return tien;
         }
+
         private void btntinhtoan_Click(object sender, EventArgs e)
         {
-           
-            string input = txtbatdau.Text;
-            string input2 = txtketthuc.Text;
-            DateTime ngayChon;
-            DateTime ngayChon2;
-            string batdau = "";
-            string ketthuc = "";
-            if (DateTime.TryParseExact(input, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out ngayChon))
-            {
-                batdau = ngayChon.ToString("yyyy-MM-dd");
-            }
-            else
-            {
-                MessageBox.Show("Ngày không hợp lệ. Vui lòng nhập đúng định dạng dd/MM/yyyy.");
-            }
-            if (DateTime.TryParseExact(input2, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out ngayChon2))
-            {
-                ketthuc = ngayChon2.ToString("yyyy-MM-dd");
-            }
-            else
-            {
-                MessageBox.Show("Ngày không hợp lệ. Vui lòng nhập đúng định dạng dd/MM/yyyy.");
-            }
+            DateTime batdau = dtpbatdau.Value;
+            DateTime ketthuc = dtpketthuc.Value;
 
             int thu = Kinhte("DonDatHang", "NgayMua", batdau, ketthuc);
-            txtdoanhthu.Text=thu.ToString();
-            int chi = Kinhte("HoaDonNhap_New", "NgayNhap",txtbatdau.Text, txtketthuc.Text);
-            txtdautu.Text=chi.ToString();
+            txtdoanhthu.Text = thu.ToString();
+
+            int chi = Kinhte("HoaDonNhap_New", "NgayNhap", batdau, ketthuc);
+            txtdautu.Text = chi.ToString();
+
             int loinhuan = thu - chi;
-            txtloinhuan.Text=loinhuan.ToString();
+            txtloinhuan.Text = loinhuan.ToString();
         }
+
 
         private void Baocaotopsanpham_Load(object sender, EventArgs e)
         {
-
+            lblname.Text = Dangnhap.TenDangNhap;
         }
 
         private void btnin_Click(object sender, EventArgs e)
         {
             inhoatdongkinhdaonh inkinhdoanh = new inhoatdongkinhdaonh();
-            inkinhdoanh.Inbaocaohoatdong(txtbatdau.Text, txtketthuc.Text,int.Parse(txtdoanhthu.Text),int.Parse(txtdautu.Text),int.Parse(txtloinhuan.Text));
+            inkinhdoanh.Inbaocaohoatdong(dtpbatdau.Text, dtpketthuc.Text,int.Parse(txtdoanhthu.Text),int.Parse(txtdautu.Text),int.Parse(txtloinhuan.Text));
 
         }
     }

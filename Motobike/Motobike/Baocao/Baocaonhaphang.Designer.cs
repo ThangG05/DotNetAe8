@@ -48,6 +48,8 @@
             this.btnin = new Guna.UI2.WinForms.Guna2Button();
             this.btntimlai = new Guna.UI2.WinForms.Guna2Button();
             this.btntimkiem = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblname = new System.Windows.Forms.Label();
             this.guna2GroupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvhoadonnhap)).BeginInit();
             this.SuspendLayout();
@@ -71,7 +73,7 @@
             this.guna2GroupBox1.Controls.Add(this.label1);
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(66, 12);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(71, 49);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.Size = new System.Drawing.Size(976, 223);
             this.guna2GroupBox1.TabIndex = 0;
@@ -245,7 +247,7 @@
             // dgvhoadonnhap
             // 
             this.dgvhoadonnhap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvhoadonnhap.Location = new System.Drawing.Point(159, 252);
+            this.dgvhoadonnhap.Location = new System.Drawing.Point(157, 278);
             this.dgvhoadonnhap.Name = "dgvhoadonnhap";
             this.dgvhoadonnhap.RowHeadersWidth = 51;
             this.dgvhoadonnhap.Size = new System.Drawing.Size(809, 150);
@@ -263,7 +265,7 @@
             this.btnin.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnin.ForeColor = System.Drawing.Color.White;
             this.btnin.Image = global::Motobike.Properties.Resources.print;
-            this.btnin.Location = new System.Drawing.Point(867, 423);
+            this.btnin.Location = new System.Drawing.Point(867, 434);
             this.btnin.Name = "btnin";
             this.btnin.Size = new System.Drawing.Size(180, 45);
             this.btnin.TabIndex = 4;
@@ -282,7 +284,7 @@
             this.btntimlai.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntimlai.ForeColor = System.Drawing.Color.White;
             this.btntimlai.Image = global::Motobike.Properties.Resources.research;
-            this.btntimlai.Location = new System.Drawing.Point(461, 423);
+            this.btntimlai.Location = new System.Drawing.Point(462, 434);
             this.btntimlai.Name = "btntimlai";
             this.btntimlai.Size = new System.Drawing.Size(180, 45);
             this.btntimlai.TabIndex = 3;
@@ -301,18 +303,45 @@
             this.btntimkiem.Font = new System.Drawing.Font("Segoe UI Variable Display", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btntimkiem.ForeColor = System.Drawing.Color.White;
             this.btntimkiem.Image = global::Motobike.Properties.Resources.find;
-            this.btntimkiem.Location = new System.Drawing.Point(81, 423);
+            this.btntimkiem.Location = new System.Drawing.Point(81, 434);
             this.btntimkiem.Name = "btntimkiem";
             this.btntimkiem.Size = new System.Drawing.Size(180, 45);
             this.btntimkiem.TabIndex = 2;
             this.btntimkiem.Text = "Tìm kiếm";
             this.btntimkiem.Click += new System.EventHandler(this.btntimkiem_Click);
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = global::Motobike.Properties.Resources.username1;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(2, -1);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(54, 37);
+            this.guna2Button1.TabIndex = 13;
+            // 
+            // lblname
+            // 
+            this.lblname.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblname.ForeColor = System.Drawing.Color.Maroon;
+            this.lblname.Location = new System.Drawing.Point(62, -1);
+            this.lblname.Name = "lblname";
+            this.lblname.Size = new System.Drawing.Size(225, 37);
+            this.lblname.TabIndex = 12;
+            this.lblname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Baocaonhaphang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 491);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.lblname);
             this.Controls.Add(this.btnin);
             this.Controls.Add(this.btntimlai);
             this.Controls.Add(this.btntimkiem);
@@ -350,5 +379,7 @@
         private Guna.UI2.WinForms.Guna2Button btntimkiem;
         private Guna.UI2.WinForms.Guna2Button btntimlai;
         private Guna.UI2.WinForms.Guna2Button btnin;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label lblname;
     }
 }

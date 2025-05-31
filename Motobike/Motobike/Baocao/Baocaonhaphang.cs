@@ -13,6 +13,7 @@ using OfficeOpenXml;
 using Excel = Microsoft.Office.Interop.Excel;
 using System.Runtime.InteropServices;
 using System.Globalization;
+using Motobike.ACC;
 namespace Motobike.Baocao
 {
     public partial class Baocaonhaphang : Form
@@ -76,6 +77,7 @@ namespace Motobike.Baocao
             NapTenHang();
             NapTenNCC();
             An();
+            lblname.Text = Dangnhap.TenDangNhap;
         }
         private void An()
         {
@@ -363,5 +365,7 @@ namespace Motobike.Baocao
             cbntenhang.Enabled=false;
             cbnmahd.Enabled=false;
         }
+
+       
     }
 }

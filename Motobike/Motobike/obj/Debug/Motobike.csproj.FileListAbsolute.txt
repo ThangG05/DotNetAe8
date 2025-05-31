@@ -578,3 +578,4 @@ D:\FINAL_PROJECT\.Net\DotNetAe8\Motobike\Motobike\obj\Debug\Motobike.csproj.Core
 D:\FINAL_PROJECT\.Net\DotNetAe8\Motobike\Motobike\obj\Debug\Motobike.csproj.Up2Date
 D:\FINAL_PROJECT\.Net\DotNetAe8\Motobike\Motobike\obj\Debug\Motobike.exe
 D:\FINAL_PROJECT\.Net\DotNetAe8\Motobike\Motobike\obj\Debug\Motobike.pdb
+D:\FINAL_PROJECT\.Net\DotNetAe8\Motobike\Motobike\obj\Debug\Motobike.Hoadon.VongQuayMayMan.resources

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.txtketthuc = new System.Windows.Forms.MaskedTextBox();
-            this.txtbatdau = new System.Windows.Forms.MaskedTextBox();
+            this.dtpketthuc = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.dtpbatdau = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
@@ -42,14 +42,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnin = new Guna.UI2.WinForms.Guna2Button();
             this.btntinhtoan = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.lblname = new System.Windows.Forms.Label();
             this.guna2GroupBox1.SuspendLayout();
             this.guna2GroupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.Controls.Add(this.txtketthuc);
-            this.guna2GroupBox1.Controls.Add(this.txtbatdau);
+            this.guna2GroupBox1.Controls.Add(this.dtpketthuc);
+            this.guna2GroupBox1.Controls.Add(this.dtpbatdau);
             this.guna2GroupBox1.Controls.Add(this.label2);
             this.guna2GroupBox1.Controls.Add(this.label1);
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -60,29 +62,39 @@
             this.guna2GroupBox1.TabIndex = 0;
             this.guna2GroupBox1.Text = "Mốc thời gian";
             // 
-            // txtketthuc
+            // dtpketthuc
             // 
-            this.txtketthuc.Location = new System.Drawing.Point(152, 216);
-            this.txtketthuc.Mask = "00/00/0000";
-            this.txtketthuc.Name = "txtketthuc";
-            this.txtketthuc.Size = new System.Drawing.Size(142, 29);
-            this.txtketthuc.TabIndex = 3;
-            this.txtketthuc.ValidatingType = typeof(System.DateTime);
+            this.dtpketthuc.Checked = true;
+            this.dtpketthuc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtpketthuc.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpketthuc.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtpketthuc.Location = new System.Drawing.Point(85, 211);
+            this.dtpketthuc.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpketthuc.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpketthuc.Name = "dtpketthuc";
+            this.dtpketthuc.Size = new System.Drawing.Size(200, 36);
+            this.dtpketthuc.TabIndex = 3;
+            this.dtpketthuc.Value = new System.DateTime(2025, 5, 27, 10, 50, 13, 505);
             // 
-            // txtbatdau
+            // dtpbatdau
             // 
-            this.txtbatdau.Location = new System.Drawing.Point(152, 99);
-            this.txtbatdau.Mask = "00/00/0000";
-            this.txtbatdau.Name = "txtbatdau";
-            this.txtbatdau.Size = new System.Drawing.Size(142, 29);
-            this.txtbatdau.TabIndex = 2;
-            this.txtbatdau.ValidatingType = typeof(System.DateTime);
+            this.dtpbatdau.Checked = true;
+            this.dtpbatdau.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.dtpbatdau.Font = new System.Drawing.Font("Segoe UI Variable Display Semib", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpbatdau.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.dtpbatdau.Location = new System.Drawing.Point(85, 99);
+            this.dtpbatdau.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.dtpbatdau.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.dtpbatdau.Name = "dtpbatdau";
+            this.dtpbatdau.Size = new System.Drawing.Size(200, 36);
+            this.dtpbatdau.TabIndex = 2;
+            this.dtpbatdau.Value = new System.DateTime(2025, 5, 27, 10, 50, 10, 799);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(45, 216);
+            this.label2.Location = new System.Drawing.Point(3, 215);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(76, 21);
             this.label2.TabIndex = 1;
@@ -92,7 +104,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(45, 99);
+            this.label1.Location = new System.Drawing.Point(3, 99);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 21);
             this.label1.TabIndex = 0;
@@ -203,11 +215,38 @@
             this.btntinhtoan.Text = "Tính toán";
             this.btntinhtoan.Click += new System.EventHandler(this.btntinhtoan_Click);
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = global::Motobike.Properties.Resources.username1;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(54, 37);
+            this.guna2Button1.TabIndex = 13;
+            // 
+            // lblname
+            // 
+            this.lblname.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblname.ForeColor = System.Drawing.Color.Maroon;
+            this.lblname.Location = new System.Drawing.Point(60, 0);
+            this.lblname.Name = "lblname";
+            this.lblname.Size = new System.Drawing.Size(225, 37);
+            this.lblname.TabIndex = 12;
+            this.lblname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
             // Baocaotopsanpham
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 491);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.lblname);
             this.Controls.Add(this.btnin);
             this.Controls.Add(this.btntinhtoan);
             this.Controls.Add(this.guna2GroupBox2);
@@ -237,7 +276,9 @@
         private System.Windows.Forms.Label label3;
         private Guna.UI2.WinForms.Guna2Button btntinhtoan;
         private Guna.UI2.WinForms.Guna2Button btnin;
-        private System.Windows.Forms.MaskedTextBox txtketthuc;
-        private System.Windows.Forms.MaskedTextBox txtbatdau;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpketthuc;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpbatdau;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label lblname;
     }
 }

@@ -428,5 +428,21 @@ namespace Motobike.Danhmuc
             btnsua.Enabled = true;
             btnxoa.Enabled = true;
         }
+
+        private void btnopen_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dlgOpen = new OpenFileDialog();
+            dlgOpen.Filter = "Bitmap(*.bmp)|*.bmp|Gif(*.gif)|*.gif|All files(*.*)|*.*";
+            dlgOpen.InitialDirectory = "D:\\FINAL_PROJECT\\.Net\\DotNetAe8\\HangHoa";
+            dlgOpen.Title = "Chon hinh anh de hien thi";
+            if (dlgOpen.ShowDialog() == DialogResult.OK)
+            {
+                picanh.Image = Image.FromFile(dlgOpen.FileName);
+                txtanh.Text = dlgOpen.FileName.ToString();
+            }
+            else
+                MessageBox.Show("You clicked Cancel", "Open Dialog",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

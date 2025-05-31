@@ -54,7 +54,7 @@ namespace Motobike.ACC
         private bool checkmail(string a)
         {
             SqlConnection conn = null;
-            CONECT.KetNoi ketNoi = new CONECT.KetNoi();
+            CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
             conn = ketNoi.CON();
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
@@ -137,7 +137,7 @@ namespace Motobike.ACC
                 return;
             }
             SqlConnection con = null;
-            CONECT.KetNoi ketNoi = new CONECT.KetNoi();
+            CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
             con = ketNoi.CON();
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;

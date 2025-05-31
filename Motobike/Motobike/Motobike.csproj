@@ -249,6 +249,8 @@
     <Compile Include="Header\Timkiemlogo.Designer.cs">
       <DependentUpon>Timkiemlogo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hoadon\Hienthihoadonban.cs" />
+    <Compile Include="Hoadon\Hienthihoadonbann.cs" />
     <Compile Include="Hoadon\Hoadonban.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -271,6 +273,12 @@
     <Compile Include="Hoadon\HoadonnhapCT.cs" />
     <Compile Include="Hoadon\Inhoadonban.cs" />
     <Compile Include="Hoadon\Inhoadonnhap.cs" />
+    <Compile Include="Hoadon\VongQuayMayMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hoadon\VongQuayMayMan.Designer.cs">
+      <DependentUpon>VongQuayMayMan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Index.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -413,6 +421,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Hoadon\Hoadonnhap.resx">
       <DependentUpon>Hoadonnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hoadon\VongQuayMayMan.resx">
+      <DependentUpon>VongQuayMayMan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Index.resx">
       <DependentUpon>Index.cs</DependentUpon>
@@ -605,6 +616,9 @@
     <None Include="Resources\HONDAWAVE.png" />
     <None Include="Resources\HONDAVISION1.jpg" />
     <None Include="Resources\hondawinner.jpg" />
+    <None Include="Resources\Thuong.png" />
+    <None Include="Resources\tennn.png" />
+    <None Include="Resources\username1.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

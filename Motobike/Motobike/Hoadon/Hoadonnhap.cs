@@ -13,6 +13,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Motobike.Mathang;
 using System.Runtime.InteropServices;
 using System.Globalization;
+using Motobike.Danhmuc;
 
 
 namespace Motobike.Hoadon
@@ -24,6 +25,7 @@ namespace Motobike.Hoadon
             InitializeComponent();
             
         }
+        BindingList<HoadonnhapCT> ds = new BindingList<HoadonnhapCT>();
         private void Hoadonnhap_Load(object sender, EventArgs e)
         {
             NapManv();
@@ -36,8 +38,7 @@ namespace Motobike.Hoadon
             txtthanhtien.Enabled=false;
             txtngaynhap.Text = DateTime.Now.ToString();
             txtngaynhap.Enabled=false;
-
-
+            datanhapxe.DataSource = ds;
 
         }
         public void NapManv()
@@ -173,33 +174,45 @@ namespace Motobike.Hoadon
             }
             reader.Close();
         }
-        private void cbngiamgia_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            int giam = int.Parse(cbngiamgia.Text);
-            int thanhtien = int.Parse(txtthanhtien.Text);
-            if (giam == 0)
-            {
-                txttongtien.Text = thanhtien.ToString();
-            }
-            else
-            {
-                double tongtien = thanhtien - (thanhtien * (giam / 100.0));
-                txttongtien.Text = tongtien.ToString();
-            }
-        }
-       
+
         private void btnInhoadon_Click(object sender, EventArgs e)
         {
-            bool ktra = true;
-            ktra = ERR();
-            if (ktra)
+            if (datanhapxe.Rows.Count == 0 || datanhapxe.Rows.Cast<DataGridViewRow>().All(r => r.IsNewRow))
             {
-                Inhoadonnhap inhoadonnhap = new Inhoadonnhap();
-                inhoadonnhap.GenerateInvoice(txtmahd.Text, txtngaynhap.Text, cbnmanv.Text, txttennhanvien.Text, cbnmahang.Text,
-                    txttenhang.Text, cbnmancc.Text, txttenncc.Text, txtdiachi.Text, txtdt.Text, int.Parse(txtsolg.Text), int.Parse(cbngiamgia.Text), int.Parse(txtdongianhap.Text), int.Parse(txtthanhtien.Text), int.Parse(txttongtien.Text));
+                MessageBox.Show("Không có dữ liệu để in");
+                return;
+            }
+            List<HoadonnhapCT> ds = new List<HoadonnhapCT>();
+            foreach (DataGridViewRow row in datanhapxe.Rows)
+            {
+                if (row.IsNewRow) continue;
+
+                var item = new HoadonnhapCT
+                {
+                    SoHDN = row.Cells["SoHDN"].Value?.ToString(),
+                    NgayNhap = row.Cells["NgayNhap"].Value?.ToString(),
+                    MaNV = row.Cells["MaNV"].Value?.ToString(),
+                    TenNV = row.Cells["TenNV"].Value?.ToString(),
+                    MaNCC = row.Cells["MaNCC"].Value?.ToString(),
+                    TenNCC = row.Cells["TenNCC"].Value?.ToString(),
+                    Diachi = row.Cells["Diachi"].Value?.ToString(),
+                    DienThoai = row.Cells["DienThoai"].Value?.ToString(),
+                    MaHang = row.Cells["MaHang"].Value?.ToString(),
+                    TenHang = row.Cells["TenHang"].Value?.ToString(),
+                    SoLuong = row.Cells["SoLuong"].Value?.ToString(),
+                    DonGia = row.Cells["DonGia"].Value?.ToString(),
+                    GiamGia = row.Cells["GiamGia"].Value?.ToString(),
+                    TongTien = row.Cells["TongTien"].Value?.ToString()
+                };
+
+                ds.Add(item);
             }
 
+            Inhoadonnhap printer = new Inhoadonnhap();
+            printer.GenerateInvoice(ds);
         }
+       
+
 
         private void txtsolg_Leave(object sender, EventArgs e)
         {
@@ -257,48 +270,85 @@ namespace Motobike.Hoadon
         }
         private void btnluu_Click(object sender, EventArgs e)
         {
-            bool ktra = true;
-            ktra = ERR();
-            if (ktra)
+            if (datanhapxe.Rows.Count == 0 || datanhapxe.Rows.Cast<DataGridViewRow>().All(r => r.IsNewRow))
+            {
+                MessageBox.Show("Không có dữ liệu để lưu");
+                return;
+            }
+            else 
             {
                 SqlConnection conn = null;
                 CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
                 conn = ketNoi.CON();
                 DateTime ngayNhap = DateTime.ParseExact(txtngaynhap.Text, "dd/MM/yyyy", CultureInfo.InvariantCulture);
-
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
+                int tongThanhTien = 0;
+                foreach (DataGridViewRow row in datanhapxe.Rows)
+                {
+                    if (row.IsNewRow) continue;
+
+                    object thanhTienValue = row.Cells["TongTien"].Value;
+
+                    if (thanhTienValue != null && int.TryParse(thanhTienValue.ToString(), out int thanhTien))
+                    {
+                        tongThanhTien += thanhTien;
+                    }
+                }
                 cmd.CommandText = @"INSERT INTO HoaDonNhap_New(MaNV, NgayNhap, MaNCC, TongTien)
                     VALUES (@manv, @ngaynhap, @mancc, @tongtien)";
                 cmd.Connection = conn;
                 cmd.Parameters.AddWithValue("@manv", cbnmanv.Text);
                 cmd.Parameters.AddWithValue("@ngaynhap", ngayNhap); 
                 cmd.Parameters.AddWithValue("@mancc", cbnmancc.Text);
-                cmd.Parameters.AddWithValue("@tongtien", int.Parse(txttongtien.Text));
+                cmd.Parameters.AddWithValue("@tongtien", tongThanhTien);
                 int x = cmd.ExecuteNonQuery();
-                SqlCommand cmd1 = new SqlCommand();
-                cmd1.CommandType = CommandType.Text;
-                cmd1.CommandText = @"INSERT INTO CTHoaDonNhap (SoHDN,MaHang, SoLuong, DonGia, GiamGia, ThanhTien)
-                              VALUES  ('" + int.Parse(txtmahd.Text) +
-                                  "','" + cbnmahang.Text +
-                                  "'," + int.Parse(txtsolg.Text) +
-                                  "," + int.Parse(txtdongianhap.Text) +
-                                  "," + int.Parse(cbngiamgia.Text) +
-                                  "," + int.Parse(txtthanhtien.Text) + ");";
-                cmd1.Connection = conn;
-                int y = cmd1.ExecuteNonQuery();
-                SqlCommand cmd2 = new SqlCommand();
-                cmd2.CommandType = CommandType.Text;
-                cmd2.CommandText = "UPDATE DMHang " +
-                        "SET SoLuong = SoLuong + @soluong, " +
-                        "DonGiaBan = DonGiaNhap * 1.1 " +
-                        "WHERE MaHang = @mahang";
+                int y = 0;
+                foreach (DataGridViewRow row in datanhapxe.Rows)
+                {
+                    if (!row.IsNewRow)
+                    {
 
-                cmd2.Parameters.AddWithValue("@soluong", int.Parse(txtsolg.Text));
-                cmd2.Parameters.AddWithValue("@mahang", cbnmahang.Text);
-                cmd2.Connection = conn;
-                int z = cmd2.ExecuteNonQuery();
-                if (x > 0 && y > 0 && z > 0)
+                        string maHang = row.Cells["MaHang"].Value?.ToString();
+                        int soLuong = Convert.ToInt32(row.Cells["SoLuong"].Value);
+                        int donGiaNhap = Convert.ToInt32(row.Cells["DonGia"].Value);
+                        int giamGia = Convert.ToInt32(row.Cells["GiamGia"].Value);
+                        int thanhTien = Convert.ToInt32(row.Cells["TongTien"].Value);
+
+                        double donGiaBan = donGiaNhap * 1.1;
+
+ 
+                        SqlCommand insertCmd = new SqlCommand(@"
+            INSERT INTO CTHoaDonNhap (SoHDN, MaHang, SoLuong, DonGia, GiamGia, ThanhTien)
+            VALUES (@SoHDN, @MaHang, @SoLuong, @DonGia, @GiamGia, @ThanhTien)", conn);
+
+                        insertCmd.Parameters.AddWithValue("@SoHDN", txtmahd.Text);
+                        insertCmd.Parameters.AddWithValue("@MaHang", maHang);
+                        insertCmd.Parameters.AddWithValue("@SoLuong", soLuong);
+                        insertCmd.Parameters.AddWithValue("@DonGia", donGiaNhap);
+                        insertCmd.Parameters.AddWithValue("@GiamGia", giamGia);
+                        insertCmd.Parameters.AddWithValue("@ThanhTien", thanhTien);
+
+                        insertCmd.ExecuteNonQuery();
+
+
+                        SqlCommand updateCmd = new SqlCommand(@"
+            UPDATE DMHang
+            SET SoLuong = SoLuong + @SoLuong,
+                DonGiaNhap = @DonGiaNhap,
+                DonGiaBan = @DonGiaBan
+            WHERE MaHang = @MaHang", conn);
+
+                        updateCmd.Parameters.AddWithValue("@SoLuong", soLuong);
+                        updateCmd.Parameters.AddWithValue("@DonGiaNhap", donGiaNhap);
+                        updateCmd.Parameters.AddWithValue("@DonGiaBan", (int)donGiaBan);
+                        updateCmd.Parameters.AddWithValue("@MaHang", maHang);
+
+                        updateCmd.ExecuteNonQuery();
+                    }
+                }
+
+                if (x > 0)
                 {
                     MessageBox.Show("Lưu Hóa Đơn Thành Công");
                     cbnmahd.Items.Clear();
@@ -318,8 +368,8 @@ namespace Motobike.Hoadon
                              where SoHDN='" + cbnmahd.Text + "'";
             cmd.Connection = conn;
             SqlDataReader sqlDataReader = cmd.ExecuteReader();
-            List<HoadonnhapCT> ds= new List<HoadonnhapCT>();
-            HoadonnhapCT hd;
+            List<Hienthihoadonban> ds= new List<Hienthihoadonban>();
+            Hienthihoadonban hd;
             while (sqlDataReader.Read())
             {
                 string mah=sqlDataReader.GetString(0);
@@ -327,7 +377,7 @@ namespace Motobike.Hoadon
                 string dongia=sqlDataReader.GetInt32(2).ToString();
                 string giamgia=sqlDataReader.GetInt32(3).ToString();
                 string thanhtien=sqlDataReader.GetInt32(4).ToString();
-                hd = new HoadonnhapCT() {SoHDN=cbnmahd.Text,MaHang=mah,SoLuong=slg,DonGia=dongia,GiamGia=giamgia,ThanhTien = thanhtien };
+                hd = new Hienthihoadonban() {SoHDN=cbnmahd.Text,MaHang=mah,SoLuong=slg,DonGia=dongia,GiamGia=giamgia,TongTien = thanhtien };
                 ds.Add(hd);
             }
             datanhapxe.DataSource = ds;
@@ -337,49 +387,104 @@ namespace Motobike.Hoadon
         {
             hienthi();
             datanhapxe.ClearSelection();
+            btnxoa.Enabled = false;
         }
-
+        int sum = 0;
+        private void cbngiamgia_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int thanhtien = int.Parse(txtthanhtien.Text);
+            if (cbngiamgia.Text == "")
+            {
+                txttongtien.Text = thanhtien.ToString();
+                sum = thanhtien;
+            }
+            else
+            {
+                int giam = int.Parse(cbngiamgia.Text);
+                double tongtien = thanhtien - (thanhtien * (giam / 100.0));
+                txttongtien.Text = tongtien.ToString();
+                sum = (int)tongtien;
+            }
+        }
         private void btnthem_Click(object sender, EventArgs e)
         {
-            clear();
+            bool check = true;
+            check = ERR();
+            if (check==false)
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin bắt buộc.");
+                return;
+            }
+            try
+            {
+                HoadonnhapCT hd = new HoadonnhapCT();
+                hd = new HoadonnhapCT() { SoHDN = txtmahd.Text,NgayNhap=txtngaynhap.Text,MaNV=cbnmanv.Text,TenNV=txttennhanvien.Text,MaNCC=cbnmancc.Text
+                    ,TenNCC=txttenncc.Text,Diachi=txtdiachi.Text,DienThoai=txtdt.Text, MaHang =cbnmahang.Text ,TenHang=txttenhang.Text,SoLuong = txtsolg.Text, DonGia = txtdongianhap.Text, GiamGia = cbngiamgia.Text, TongTien = sum.ToString() };
+                ds.Add(hd);   
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Vui lòng nhập đúng định dạng số.");
+            }
+            cbnmahang.SelectedIndex = -1;
+            txttenhang.Text = "";
+            txtsolg.Text = "";
+            cbngiamgia.SelectedIndex = -1;
+            txtdongianhap.Text = "";
+            txtthanhtien.Text = "";
+            txttongtien.Text = "";
+            cbnmanv.Enabled = false;
+            txttennhanvien.Enabled = false;
+            cbnmancc.Enabled = false;
+            txttenncc.Enabled = false;
+            txtdiachi.Enabled = false;
+            txtdt.Enabled = false;
         }
 
         private void btnboqua_Click(object sender, EventArgs e)
         {
-            clear();
+            btnxoa.Enabled = true;
+            cbnmahang.SelectedIndex = -1;
+            txttenhang.Text = "";
+            txtsolg.Text = "";
+            cbngiamgia.SelectedIndex = -1;
+            txtdongianhap.Text = "";
+            txtthanhtien.Text = "";
+            txttongtien.Text = "";
+            cbnmancc.SelectedIndex = -1;
+            txtdiachi.Text = "";
+            txtdt.Text = "";
+            cbnmanv.SelectedIndex = -1;
+            txttennhanvien.Text = "";
+            txttenncc.Text = "";
         }
 
         private void btnxoa_Click(object sender, EventArgs e)
         {
-            if (datanhapxe.SelectedRows.Count > 0)
+            if (datanhapxe.Rows.Count == 0)
             {
-                DataGridViewRow selectedRow = datanhapxe.SelectedRows[0];
-                object value = selectedRow.Cells[0].Value;
-                SqlConnection conn = null;
-                CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
-                conn = ketNoi.CON();
-                SqlCommand cmd = new SqlCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = @"delete CTHoaDonNhap
-                                   where SoHDN='" + value + "'";
-                cmd.Connection = conn;
-                int x = cmd.ExecuteNonQuery();
-                SqlCommand cmd1 = new SqlCommand();
-                cmd1.CommandType = CommandType.Text;
-                cmd1.CommandText = @"delete HoaDonNhap_New
-                                    where SoHDN='"+value+"'";
-                cmd1.Connection = conn;
-                int y = cmd1.ExecuteNonQuery();
-                if (x > 0 && y > 0 )
-                {
-                    MessageBox.Show("Xóa Hóa Đơn Thành Công");
-                    NapMaHD();
-                }
-
+                MessageBox.Show("Bảng hiện không có dữ liệu để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else
+
+
+            if (datanhapxe.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Không có đối tượng nào để xóa", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng chọn một dòng để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa dòng đã chọn?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                foreach (DataGridViewRow row in datanhapxe.SelectedRows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        datanhapxe.Rows.Remove(row);
+                    }
+                }
             }
         }
 

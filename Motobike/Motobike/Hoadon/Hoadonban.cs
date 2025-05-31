@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using Motobike.Mathang;
 
 namespace Motobike.Hoadon
 {
@@ -20,7 +21,7 @@ namespace Motobike.Hoadon
         {
             InitializeComponent();
         }
-
+        BindingList<HoadonbanCT> ds = new BindingList<HoadonbanCT>();
         private void Hoadonban_Load(object sender, EventArgs e)
         {
             NapMaKh();
@@ -32,6 +33,8 @@ namespace Motobike.Hoadon
             txtthanhtien.Enabled = false;
             txtngaymua.Text = DateTime.Now.ToString();
             txtngaymua.Enabled = false;
+            databanxe.DataSource = ds;
+            btnquaythuong.Enabled = true;
 
         }
         public void NapMaKh()
@@ -152,7 +155,7 @@ namespace Motobike.Hoadon
             int slg = int.Parse(txtsolg.Text);
             txtthanhtien.Text = (gia * slg).ToString();
         }
-
+        int sum = 0;
         private void cbngiamgia_Leave(object sender, EventArgs e)
         {
             if (txtthanhtien.Text=="")
@@ -161,16 +164,18 @@ namespace Motobike.Hoadon
                 cbngiamgia.SelectedIndex = -1 ;
                 return;
             }
-            int giam = int.Parse(cbngiamgia.Text);
             int thanhtien = int.Parse(txtthanhtien.Text);
-            if (giam == 0)
+            if (cbngiamgia.Text == "")
             {
                 txttongtien.Text = thanhtien.ToString();
+                sum = thanhtien;
             }
             else
             {
+                int giam = int.Parse(cbngiamgia.Text);
                 double tongtien = thanhtien - (thanhtien * (giam / 100.0));
                 txttongtien.Text = tongtien.ToString();
+                sum = (int)tongtien;
             }
         }
         private void txtthue_SelectedIndexChanged(object sender, EventArgs e)
@@ -181,11 +186,20 @@ namespace Motobike.Hoadon
                 txtthue.SelectedIndex = -1;
                 return;
             }
-            int vat = int.Parse(txtthue.Text);
             int thanhtien = int.Parse(txttongtien.Text);
-
-            double tongtien = thanhtien + (thanhtien * (vat / 100.0));
-            txttongtien.Text = tongtien.ToString();
+            if (txtthue.Text == "")
+            {
+                txttongtien.Text = thanhtien.ToString();
+                sum= thanhtien;
+            }
+            else
+            {
+                int vat = int.Parse(txtthue.Text);
+                double tongtien = thanhtien + (thanhtien * (vat / 100.0));
+                sum = (int)tongtien;
+                txttongtien.Text = tongtien.ToString();
+            }
+           
         }
        
         private int Getma()
@@ -216,16 +230,44 @@ namespace Motobike.Hoadon
         }
         private void btnin_Click(object sender, EventArgs e)
         {
-            bool ktra = true;
-            ktra = ERR();
-            if (ktra)
+            if (databanxe.Rows.Count == 0 || databanxe.Rows.Cast<DataGridViewRow>().All(r => r.IsNewRow))
             {
-
-                Inhoadonban inhoadonban = new Inhoadonban();
-                inhoadonban.Hoadonban(txtmahd.Text, txtngaymua.Text, cbnmanv.Text, txttennv.Text, cbnmakhach.Text, txttenkhach.Text,
-                    txtdchi.Text, txtdienthoai.Text, cbnmahang.Text, txttenhang.Text, int.Parse(txtsolg.Text), int.Parse(cbngiamgia.Text),
-                    int.Parse(txtgiatien.Text), int.Parse(txtthanhtien.Text), int.Parse(txtthue.Text), int.Parse(txttongtien.Text));
+                MessageBox.Show("Không có dữ liệu để in");
+                return;
             }
+            if (btnquaythuong.Enabled)
+            {
+                MessageBox.Show("Hãy quay thưởng trước khi in");
+                return;
+            }
+            List<HoadonbanCT> ds = new List<HoadonbanCT>();
+            foreach (DataGridViewRow row in databanxe.Rows)
+            {
+                if (row.IsNewRow) continue;
+
+                var item = new HoadonbanCT
+                {
+                    SoDDH = row.Cells["SoDDH"].Value?.ToString(),
+                    NgayMua = row.Cells["NgayMua"].Value?.ToString(),
+                    MaNV = row.Cells["MaNV"].Value?.ToString(),
+                    TenNV = row.Cells["TenNV"].Value?.ToString(),
+                    MaKH = row.Cells["MaKH"].Value?.ToString(),
+                    TenKH = row.Cells["TenKH"].Value?.ToString(),
+                    Diachi = row.Cells["Diachi"].Value?.ToString(),
+                    SDT = row.Cells["SDT"].Value?.ToString(),
+                    MaHang = row.Cells["MaHang"].Value?.ToString(),
+                    TenHang = row.Cells["TenHang"].Value?.ToString(),
+                    SoLuong = row.Cells["SoLuong"].Value?.ToString(),
+                    GiaBan = row.Cells["GiaBan"].Value?.ToString(),
+                    GiamGia = row.Cells["GiamGia"].Value?.ToString(),
+                    Thue = row.Cells["Thue"].Value?.ToString(),
+                    ThanhTien = row.Cells["ThanhTien"].Value?.ToString(),
+                };
+                ds.Add(item);
+            }
+            String KetQua = VongQuayMayMan.Ketqua;
+            Inhoadonban printer = new Inhoadonban();
+            printer.GenerateInvoiceBan(ds,KetQua);
         }
         private void clear()
         {
@@ -268,9 +310,12 @@ namespace Motobike.Hoadon
         }
         private void btnluu_Click(object sender, EventArgs e)
         {
-            bool ktra = true;   
-            ktra = ERR();
-            if (ktra) {
+            if (databanxe.Rows.Count == 0 || databanxe.Rows.Cast<DataGridViewRow>().All(r => r.IsNewRow))
+            {
+                MessageBox.Show("Không có dữ liệu để lưu");
+                return;
+            }
+            else {
                 SqlConnection conn = null;
                 CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
                 conn = ketNoi.CON();
@@ -279,6 +324,25 @@ namespace Motobike.Hoadon
                 // Tạo SqlCommand và dùng tham số
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
+                int tongThanhTien = 0;
+                int thue = 0;
+                foreach (DataGridViewRow row in databanxe.Rows)
+                {
+                    if (row.IsNewRow) continue;
+
+                    object thanhTienValue = row.Cells["ThanhTien"].Value;
+
+                    if (thanhTienValue != null && int.TryParse(thanhTienValue.ToString(), out int thanhTien))
+                    {
+                        tongThanhTien += thanhTien;
+                    }
+                    object thueValue = row.Cells["Thue"].Value;
+
+                    if (thueValue != null && int.TryParse(thueValue.ToString(), out int tienthue))
+                    {
+                        thue += tienthue;
+                    }
+                }
                 cmd.CommandText = @"INSERT INTO DonDatHang (MaNV, NgayMua, MaKH, Thue, TongTien)
                     VALUES (@manv, @ngaymua, @makh, @thue, @tongtien)";
                 cmd.Connection = conn;
@@ -286,32 +350,45 @@ namespace Motobike.Hoadon
                 cmd.Parameters.AddWithValue("@manv", cbnmanv.Text);
                 cmd.Parameters.AddWithValue("@ngaymua", ngayMua);
                 cmd.Parameters.AddWithValue("@makh", cbnmakhach.Text);
-                cmd.Parameters.AddWithValue("@thue", int.Parse(txtthue.Text));
-                cmd.Parameters.AddWithValue("@tongtien", int.Parse(txttongtien.Text));
+                cmd.Parameters.AddWithValue("@thue", thue);
+                cmd.Parameters.AddWithValue("@tongtien", tongThanhTien);
                 int x = cmd.ExecuteNonQuery();
-                SqlCommand cmd1 = new SqlCommand();
-                cmd1.CommandType = CommandType.Text;
-                cmd1.CommandText = @"INSERT INTO CTDonDatHang (SoDDH,MaHang, SoLuong, GiaBan,GiamGia ,ThanhTien)
-                                VALUES 
-                                ('"+int.Parse(txtmahd.Text)+
-                                "','" + cbnmahang.Text +
-                                    "'," + int.Parse(txtsolg.Text)
-                                    + " ," + int.Parse(txtgiatien.Text) +
-                                     " ," + int.Parse(cbngiamgia.Text) +
-                                    " ," + int.Parse(txtthanhtien.Text) + ");";
-                cmd1.Connection = conn;
-                int y = cmd1.ExecuteNonQuery();
-                SqlCommand cmd2 = new SqlCommand();
-                cmd2.CommandType = CommandType.Text;
-                cmd2.CommandText = "UPDATE DMHang " +
-                        "SET SoLuong = SoLuong - @soluong " +
-                        "WHERE MaHang = @mahang";
+                foreach (DataGridViewRow row in databanxe.Rows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        string maHang = row.Cells["MaHang"].Value?.ToString();
+                        int soLuong = Convert.ToInt32(row.Cells["SoLuong"].Value);
+                        int giaBan = Convert.ToInt32(row.Cells["GiaBan"].Value);
+                        int giamGia = Convert.ToInt32(row.Cells["GiamGia"].Value);
+                        int thanhTien = Convert.ToInt32(row.Cells["ThanhTien"].Value);
 
-                cmd2.Parameters.AddWithValue("@soluong", int.Parse(txtsolg.Text));
-                cmd2.Parameters.AddWithValue("@mahang", cbnmahang.Text);
-                cmd2.Connection = conn;
-                int z = cmd2.ExecuteNonQuery();
-                if (x > 0 && z > 0)
+                        SqlCommand cmd1 = new SqlCommand();
+                        cmd1.CommandType = CommandType.Text;
+                        cmd1.CommandText = @"INSERT INTO CTDonDatHang (SoDDH, MaHang, SoLuong, GiaBan, GiamGia, ThanhTien)
+                VALUES 
+                ('" + int.Parse(txtmahd.Text) +
+                                "','" + maHang +
+                                "'," + soLuong +
+                                "," + giaBan +
+                                "," + giamGia +
+                                "," + thanhTien + ");";
+                        cmd1.Connection = conn;
+                        int y = cmd1.ExecuteNonQuery();
+
+                        SqlCommand cmd2 = new SqlCommand();
+                        cmd2.CommandType = CommandType.Text;
+                        cmd2.CommandText = "UPDATE DMHang " +
+                            "SET SoLuong = SoLuong - @soluong " +
+                            "WHERE MaHang = @mahang";
+                        cmd2.Parameters.AddWithValue("@soluong", soLuong);
+                        cmd2.Parameters.AddWithValue("@mahang", maHang);
+                        cmd2.Connection = conn;
+                        int z = cmd2.ExecuteNonQuery();
+                    }
+                }
+
+                if (x > 0)
                 {
                     MessageBox.Show("Lưu Hóa Đơn Thành Công");
                     cbnmahd.Items.Clear();
@@ -332,8 +409,8 @@ namespace Motobike.Hoadon
 
             cmd.Connection = conn;
             SqlDataReader sqlDataReader = cmd.ExecuteReader();
-            List<HoadonbanCT> ds = new List<HoadonbanCT>();
-            HoadonbanCT hd;
+            List<Hienthihoadonbann> ds = new List<Hienthihoadonbann>();
+            Hienthihoadonbann hd;
             while (sqlDataReader.Read())
             {
                 string mah = sqlDataReader.GetString(0);
@@ -341,7 +418,7 @@ namespace Motobike.Hoadon
                 string dongia = sqlDataReader.GetInt32(2).ToString();
                 string giamgia = sqlDataReader.GetInt32(3).ToString();
                 string thanhtien = sqlDataReader.GetInt32(4).ToString();
-                hd = new HoadonbanCT() { SoDDH = cbnmahd.Text, MaHang = mah, SoLuong = slg, GiaBan = dongia, Giamgia = giamgia, ThanhTien = thanhtien };
+                hd = new Hienthihoadonbann() { SoDDH = cbnmahd.Text, MaHang = mah, SoLuong = slg, GiaBan = dongia, Giamgia = giamgia, ThanhTien = thanhtien };
                 ds.Add(hd);
             }
             databanxe.DataSource = ds;
@@ -352,55 +429,114 @@ namespace Motobike.Hoadon
         {
             hienthi();
             databanxe.ClearSelection();
+            btnhuy.Enabled = false;
         }
 
         private void btnboqua_Click(object sender, EventArgs e)
         {
-            clear();
+            btnhuy.Enabled = true;
+            cbnmahang.SelectedIndex = -1;
+            txttenhang.Text = "";
+            txtsolg.Text = "";
+            cbngiamgia.SelectedIndex = -1;
+            txtgiatien.Text = "";
+            txtthanhtien.Text = "";
+            txttongtien.Text = "";
+            cbnmakhach.SelectedIndex = -1;
+            txtdchi.Text = "";
+            txtdienthoai.Text = "";
+            cbnmanv.SelectedIndex = -1;
+            txttennv.Text = "";
+            txttenkhach.Text = "";
+            txtthue.SelectedIndex = -1;
         }
 
         private void btnthem_Click(object sender, EventArgs e)
         {
-            clear();
+            bool check = true;
+            check = ERR();
+            if (check == false)
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin bắt buộc.");
+                return;
+            }
+            try
+            {
+                HoadonbanCT hd = new HoadonbanCT();
+                hd = new HoadonbanCT()
+                {
+                    SoDDH = txtmahd.Text,
+                    NgayMua = txtngaymua.Text,
+                    MaNV = cbnmanv.Text,
+                    TenNV = txttennv.Text,
+                    MaKH = cbnmakhach.Text,
+                    TenKH = txttenkhach.Text,
+                    Diachi = txtdchi.Text,
+                    SDT = txtdienthoai.Text,
+                    MaHang = cbnmahang.Text,
+                    TenHang = txttenhang.Text,
+                    SoLuong = txtsolg.Text,
+                    GiaBan = txtgiatien.Text,
+                    GiamGia = cbngiamgia.Text,
+                    Thue = txtthue.Text,
+                    ThanhTien = sum.ToString()
+                };
+                ds.Add(hd);
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Vui lòng nhập đúng định dạng số.");
+            }
+            cbnmahang.SelectedIndex = -1;
+            txttenhang.Text = "";
+            txtsolg.Text = "";
+            cbngiamgia.SelectedIndex = -1;
+            txtgiatien.Text = "";
+            txtthanhtien.Text = "";
+            txtthue.SelectedIndex = -1;
+            txttongtien.Text = "";
+            cbnmanv.Enabled = false;
+            txttennv.Enabled = false;
+            cbnmakhach.Enabled = false;
+            txttenkhach.Enabled = false;
+            txtdchi.Enabled = false;
+            txtdienthoai.Enabled = false;
         }
 
         private void btnhuy_Click(object sender, EventArgs e)
         {
-            if (databanxe.SelectedRows.Count > 0)
+            if (databanxe.Rows.Count == 0)
             {
-                DataGridViewRow selectedRow = databanxe.SelectedRows[0];
-                object value = selectedRow.Cells[0].Value;
-                SqlConnection conn = null;
-                CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
-                conn = ketNoi.CON();
-                SqlCommand cmd = new SqlCommand();
-                cmd.CommandType = CommandType.Text;
-                cmd.CommandText = @"delete CTDonDatHang
-                                  where SoDDH='"+value+"'";
-                cmd.Connection = conn;
-                int x = cmd.ExecuteNonQuery();
-                SqlCommand cmd1 = new SqlCommand();
-                cmd1.CommandType = CommandType.Text;
-                cmd1.CommandText = @"delete DonDatHang
-                                   where SoDDH='"+value+"'";
-                cmd1.Connection = conn;
-                int y = cmd1.ExecuteNonQuery();
-                if (x > 0 && y > 0)
-                {
-                    MessageBox.Show("Xóa Hóa Đơn Thành Công");
-                    NapMaHD();
-                }
-
+                MessageBox.Show("Bảng hiện không có dữ liệu để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
-            else
+
+    
+            if (databanxe.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Không có đối tượng nào để xóa", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Vui lòng chọn một dòng để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+        
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa dòng đã chọn?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                foreach (DataGridViewRow row in databanxe.SelectedRows)
+                {
+                    if (!row.IsNewRow)
+                    {
+                        databanxe.Rows.Remove(row);
+                    }
+                }
             }
         }
 
-        private void txtmahd_TextChanged(object sender, EventArgs e)
+        private void btnquaythuong_Click(object sender, EventArgs e)
         {
-
+            VongQuayMayMan v = new VongQuayMayMan();
+            v.Show();
+            btnquaythuong.Enabled = false;
         }
     }
 }

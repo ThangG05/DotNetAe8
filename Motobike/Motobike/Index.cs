@@ -21,6 +21,7 @@ namespace Motobike
             InitializeComponent();
             
         }
+        bool flag=false;
         private Form currentChild;
         private Form parentchild;
         private void Open(Form Child)
@@ -92,10 +93,21 @@ namespace Motobike
 
         private void Baocao_Click(object sender, EventArgs e)
         {
-            Dangnhap dn = new Dangnhap(this);
-            var result = dn.ShowDialog();  
-           
-            if (dn.CheckValue == true)
+            if (flag == false)
+            {
+                Dangnhap dn = new Dangnhap(this);
+                var result = dn.ShowDialog();
+                flag = dn.CheckValue;
+                if (flag == true)
+                {
+                    chuyenmau();
+                    Baocao.FillColor = Color.FromArgb(130, 142, 151);
+                    Baocao.ForeColor = Color.Black;
+                    Header(new Baocaologo());
+                    Open(new Baocao.Baocaomain());
+                }
+            }
+            else
             {
                 chuyenmau();
                 Baocao.FillColor = Color.FromArgb(130, 142, 151);
@@ -130,6 +142,26 @@ namespace Motobike
             Danhmuc.ForeColor = Color.Black;
             Header(new Danhmuclogo());
             Open(new Danhmuc.DanhMucChinh());
+        }
+      
+        private void Index_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Index_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show(
+                "Bạn có chắc chắn muốn thoát chương trình?",
+                "Xác nhận thoát",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true; 
+            }
         }
     }
 }

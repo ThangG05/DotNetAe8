@@ -549,6 +549,7 @@
             this.btnopen.Size = new System.Drawing.Size(75, 34);
             this.btnopen.TabIndex = 4;
             this.btnopen.Text = "Open";
+            this.btnopen.Click += new System.EventHandler(this.btnopen_Click);
             // 
             // Danhmuchanghoa
             // 

@@ -15,6 +15,7 @@ using Excel = Microsoft.Office.Interop.Excel;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 using iTextSharp.text.pdf.codec;
+using Motobike.ACC;
 
 
 namespace Motobike.Baocao
@@ -25,17 +26,26 @@ namespace Motobike.Baocao
         {
             InitializeComponent();
         }
-
+        string tieuchi = "";
+        private void cboTieuchi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cboTieuchi.SelectedIndex == 0)
+            {
+                tieuchi = "Tên hàng";
+            }
+            if (cboTieuchi.SelectedIndex == 1)
+            {
+                tieuchi = "Tên hãng sản xuất";
+            }
+        }
         private void Baocaohoatdongkinhdoanh_Load(object sender, EventArgs e)
         {
-            txtbdau.Visible = false;
-            txtketthuc.Visible = false;
-            txtMM.Visible = false;
-            txtYYYY.Visible = false;
+            dtpmmyyyy.Visible = false;
+            dtpketthuc.Visible = false;
+            dtpbatdau.Visible = false;
             lbldau.Visible = false;
             lblden.Visible = false;
-            lblMM.Visible = false;
-            lblYYYY.Visible = false;
+            lblname.Text = Dangnhap.TenDangNhap;
         }
         private void ChartColum(string tencot)
         {
@@ -66,6 +76,12 @@ namespace Motobike.Baocao
         }
         private void buttimkiem_Click(object sender, EventArgs e)
         {
+            errorProvider1.Clear();
+            if (tieuchi == "")
+            {
+                errorProvider1.SetError(cboTieuchi, "Bắt buộc phải chọn tiêu chí");
+                return;
+            }
             SqlConnection conn = null;
             CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
             conn = ketNoi.CON();
@@ -78,7 +94,7 @@ namespace Motobike.Baocao
                 string query = "";
                 string tenCotBieuDo = "";
 
-                if (rdotenhang.Checked && rdoMMYYYY.Checked)
+                if (tieuchi=="Tên hàng" && rdoMMYYYY.Checked)
                 {
                     query = @"
                 SELECT 
@@ -87,15 +103,14 @@ namespace Motobike.Baocao
                 FROM CTDonDatHang ct
                 JOIN DMHang h ON ct.MaHang = h.MaHang
                 JOIN DonDatHang ddh ON ct.SoDDH = ddh.SoDDH
-                WHERE MONTH(ddh.NgayMua) = @Thang AND YEAR(ddh.NgayMua) = @Nam
+                WHERE ddh.NgayMua = @Ngay 
                 GROUP BY h.TenHang
                 ORDER BY SoLuong DESC";
 
-                    cmd.Parameters.AddWithValue("@Thang", int.Parse(txtMM.Text));
-                    cmd.Parameters.AddWithValue("@Nam", int.Parse(txtYYYY.Text));
+                    cmd.Parameters.AddWithValue("@Ngay", int.Parse(dtpmmyyyy.Text));
                     tenCotBieuDo = "TenHang";
                 }
-                else if (rdotenhang.Checked && rdothoigian.Checked)
+                else if (tieuchi == "Tên hàng" && rdothoigian.Checked)
                 {
                     query = @"
                 SELECT 
@@ -108,11 +123,11 @@ namespace Motobike.Baocao
                 GROUP BY h.TenHang
                 ORDER BY SoLuong DESC";
 
-                    cmd.Parameters.AddWithValue("@NgayBatDau", DateTime.Parse(txtbdau.Text));
-                    cmd.Parameters.AddWithValue("@NgayKetThuc", DateTime.Parse(txtketthuc.Text));
+                    cmd.Parameters.AddWithValue("@NgayBatDau", DateTime.Parse(dtpbatdau.Text));
+                    cmd.Parameters.AddWithValue("@NgayKetThuc", DateTime.Parse(dtpketthuc.Text));
                     tenCotBieuDo = "TenHang";
                 }
-                else if (rdotenhangx.Checked && rdoMMYYYY.Checked)
+                else if (tieuchi=="Tên hãng sản xuất" && rdoMMYYYY.Checked)
                 {
                     query = @"
                 SELECT 
@@ -122,15 +137,13 @@ namespace Motobike.Baocao
                 JOIN DMHang h ON ct.MaHang = h.MaHang
                 JOIN HangSX hs ON h.MaHangSX = hs.MaHangSX
                 JOIN DonDatHang ddh ON ct.SoDDH = ddh.SoDDH
-                WHERE MONTH(ddh.NgayMua) = @Thang AND YEAR(ddh.NgayMua) = @Nam
+                WHERE ddh.NgayMua = @Ngay 
                 GROUP BY hs.TenHangSX
                 ORDER BY SoLuong DESC";
-
-                    cmd.Parameters.AddWithValue("@Thang", int.Parse(txtMM.Text));
-                    cmd.Parameters.AddWithValue("@Nam", int.Parse(txtYYYY.Text));
+                    cmd.Parameters.AddWithValue("@Ngay", int.Parse(dtpmmyyyy.Text));
                     tenCotBieuDo = "TenHangSX";
                 }
-                else if (rdotenhangx.Checked && rdothoigian.Checked)
+                else if (tieuchi == "Tên hãng sản xuất" && rdothoigian.Checked)
                 {
                     query = @"
                 SELECT 
@@ -144,8 +157,8 @@ namespace Motobike.Baocao
                 GROUP BY hs.TenHangSX
                 ORDER BY SoLuong DESC";
 
-                    cmd.Parameters.AddWithValue("@NgayBatDau", DateTime.Parse(txtbdau.Text));
-                    cmd.Parameters.AddWithValue("@NgayKetThuc", DateTime.Parse(txtketthuc.Text));
+                    cmd.Parameters.AddWithValue("@NgayBatDau", DateTime.Parse(dtpbatdau.Text));
+                    cmd.Parameters.AddWithValue("@NgayKetThuc", DateTime.Parse(dtpketthuc.Text));
                     tenCotBieuDo = "TenHangSX";
                 }
                 else
@@ -177,31 +190,18 @@ namespace Motobike.Baocao
                     conn.Close();
             }
         }
-
-
-
-
         private void buttimlai_Click(object sender, EventArgs e)
         {
             rdoMMYYYY.Checked = false;
-            rdotenhang.Checked = false;
-            rdotenhangx.Checked = false;
+            cboTieuchi.SelectedIndex = -1;
             rdothoigian.Checked = false;
-            txtbdau.Text = "";
-            txtketthuc.Text = "";
-            txtMM.Text = "";
-            txtYYYY.Text = "";
+            dtpmmyyyy.Text = "";
+            dtpbatdau.Text = "";
+            dtpketthuc.Text = "";
             dgvban.DataSource = null;
             Chartbaocao.Series.Clear();
-            txtbdau.Visible = false;
-            txtketthuc.Visible = false;
-            txtMM.Visible = false;
-            txtYYYY.Visible = false;
             lbldau.Visible = false;
             lblden.Visible = false;
-            lblMM.Visible = false;
-            lblYYYY.Visible = false;
-
         }
         private void ExportExcel(string path)
         {
@@ -215,19 +215,18 @@ namespace Motobike.Baocao
             ws.Cells[2, 1] = "Khoảng thời gian";
             if (rdoMMYYYY.Checked)
             {
-                ws.Cells[2, 2] = $"Tháng: {txtMM.Text.ToString()}";
-                ws.Cells[3, 2] = $"Năm: {txtYYYY.Text.ToString()}";
+                ws.Cells[2, 2] = $"Ngày: {dtpmmyyyy.Text.ToString()}";
             }
             if (rdothoigian.Checked)
             {
-                ws.Cells[2, 2] = $"Từ: {txtbdau.Text.ToString()}";
-                ws.Cells[3, 2] = $"Đến: {txtketthuc.Text.ToString()}";
+                ws.Cells[2, 2] = $"Từ: {dtpbatdau.Text.ToString()}";
+                ws.Cells[3, 2] = $"Đến: {dtpketthuc.Text.ToString()}";
             }
             
 
             // Tổng hợp số lượng theo tên hàng
             Dictionary<string, int> thongKe = new Dictionary<string, int>();
-            if (rdotenhang.Checked)
+            if (tieuchi == "Tên hàng")
             {
                 foreach (DataGridViewRow Row in dgvban.Rows)
                 {
@@ -242,7 +241,7 @@ namespace Motobike.Baocao
                         thongKe[tenHang] = soLuong;
                 }
             }
-            if (rdotenhangx.Checked)
+            if (tieuchi == "Tên hãng sản xuất")
             {
                 foreach (DataGridViewRow Row in dgvban.Rows)
                 {
@@ -281,11 +280,11 @@ namespace Motobike.Baocao
             chart.HasTitle = true;
             if (rdothoigian.Checked)
             {
-                chart.ChartTitle.Text = $"Biểu đồ bán hàng từ {txtbdau.Text.ToString()} đến {txtketthuc.Text.ToString()}";
+                chart.ChartTitle.Text = $"Biểu đồ bán hàng từ {dtpbatdau.Text.ToString()} đến {dtpketthuc.Text.ToString()}";
             }
             if (rdoMMYYYY.Checked)
             {
-                chart.ChartTitle.Text = $"Biểu đồ bán hàng Tháng {txtMM.Text.ToString()} Năm {txtYYYY.Text.ToString()}";
+                chart.ChartTitle.Text = $"Biểu đồ bán hàng Ngày {dtpmmyyyy.Text.ToString()}";
             }
            
             chart.Axes(Excel.XlAxisType.xlCategory).HasTitle = false;
@@ -342,12 +341,9 @@ namespace Motobike.Baocao
 
         private void rdoMMYYYY_CheckedChanged(object sender, EventArgs e)
         {
-            lblYYYY.Visible = true;
-            lblMM.Visible = true;
-            txtMM.Visible = true;
-            txtYYYY.Visible = true;
-            txtbdau.Visible = false;
-            txtketthuc.Visible = false;
+            dtpmmyyyy.Visible = true;
+            dtpbatdau.Visible = false;
+            dtpketthuc.Visible = false;
             lbldau.Visible = false;
             lblden.Visible = false;
 
@@ -357,12 +353,14 @@ namespace Motobike.Baocao
         {
             lbldau.Visible = true;
             lblden.Visible = true;
-            txtbdau.Visible = true;
-            txtketthuc.Visible = true;
-            txtMM.Visible = false;
-            txtYYYY.Visible = false;
-            lblMM.Visible = false;
-            lblYYYY.Visible = false;
+            dtpbatdau.Visible = true;
+            dtpketthuc.Visible = true;
+            dtpmmyyyy.Visible = false;
+        }
+
+        private void lblden_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

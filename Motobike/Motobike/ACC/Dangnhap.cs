@@ -17,11 +17,13 @@ namespace Motobike.ACC
     {
         private Index index;
         bool check = false;
+        public static string TenDangNhap = "";
         public bool CheckValue
         {
             get { return check; }
             set { check = value; }
         }
+       
         public Dangnhap(Index mainForm)
         {
             InitializeComponent();
@@ -37,7 +39,7 @@ namespace Motobike.ACC
         private void ButDangnhap_Click(object sender, EventArgs e)
         {
             SqlConnection con = null;
-            CONECT.KetNoi ketNoi = new CONECT.KetNoi();
+            CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
             con=ketNoi.CON();
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
@@ -52,6 +54,7 @@ namespace Motobike.ACC
                 mk=reader.GetString(1);
                 if (txttaikhoan.Text.Trim() == ten.Trim() && txtmatkhau.Text.Trim() == mk.Trim()) 
                 {
+                    TenDangNhap = txttaikhoan.Text.Trim();
                     this.Close();
                     check = true;
                 }

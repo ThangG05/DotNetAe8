@@ -22,7 +22,7 @@ namespace Motobike.ACC
         {
            
             SqlConnection conn = null;
-            CONECT.KetNoi ketNoi = new CONECT.KetNoi();
+            CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
             conn = ketNoi.CON();
             string query = "SELECT COUNT(*) FROM Acc WHERE "+cot+" = @keyyy";
 
@@ -100,7 +100,7 @@ namespace Motobike.ACC
             else
             {
                 SqlConnection conn = null;
-                CONECT.KetNoi ketNoi = new CONECT.KetNoi();
+                CONECT.KetNoiXE ketNoi = new CONECT.KetNoiXE();
                 conn = ketNoi.CON();
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
@@ -113,15 +113,16 @@ namespace Motobike.ACC
                 if (x > 0)
                 {
                     MessageBox.Show("Đăng ký thành công");
+                    this.Close();
                 }
             }
            
         }
-        private void guna2CircleButton2_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
+        
 
-       
+        private void Dangky_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

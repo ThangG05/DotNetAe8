@@ -308,6 +308,8 @@
             this.Name = "Index";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Trang chủ";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Index_FormClosing);
+            this.Load += new System.EventHandler(this.Index_Load);
             this.panel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -322,6 +324,7 @@
         }
 
         #endregion
+
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -340,5 +343,6 @@
         private Guna.UI2.WinForms.Guna2Button Danhmuc;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
+
 }
 

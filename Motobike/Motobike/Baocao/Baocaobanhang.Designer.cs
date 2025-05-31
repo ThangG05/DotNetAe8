@@ -45,6 +45,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblname = new System.Windows.Forms.Label();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnin = new Guna.UI2.WinForms.Guna2Button();
             this.btntimlai = new Guna.UI2.WinForms.Guna2Button();
             this.btntimkiem = new Guna.UI2.WinForms.Guna2Button();
@@ -55,7 +57,7 @@
             // dgvbaocaoban
             // 
             this.dgvbaocaoban.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvbaocaoban.Location = new System.Drawing.Point(170, 257);
+            this.dgvbaocaoban.Location = new System.Drawing.Point(157, 278);
             this.dgvbaocaoban.Name = "dgvbaocaoban";
             this.dgvbaocaoban.RowHeadersWidth = 51;
             this.dgvbaocaoban.Size = new System.Drawing.Size(809, 150);
@@ -80,7 +82,7 @@
             this.guna2GroupBox1.Controls.Add(this.label1);
             this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox1.Location = new System.Drawing.Point(77, 17);
+            this.guna2GroupBox1.Location = new System.Drawing.Point(70, 49);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
             this.guna2GroupBox1.Size = new System.Drawing.Size(976, 223);
             this.guna2GroupBox1.TabIndex = 5;
@@ -251,6 +253,31 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã hóa đơn";
             // 
+            // lblname
+            // 
+            this.lblname.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblname.ForeColor = System.Drawing.Color.Maroon;
+            this.lblname.Location = new System.Drawing.Point(61, 0);
+            this.lblname.Name = "lblname";
+            this.lblname.Size = new System.Drawing.Size(225, 37);
+            this.lblname.TabIndex = 10;
+            this.lblname.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = global::Motobike.Properties.Resources.username1;
+            this.guna2Button1.ImageSize = new System.Drawing.Size(40, 40);
+            this.guna2Button1.Location = new System.Drawing.Point(1, 0);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(54, 37);
+            this.guna2Button1.TabIndex = 11;
+            // 
             // btnin
             // 
             this.btnin.BorderRadius = 14;
@@ -264,7 +291,7 @@
             this.btnin.ForeColor = System.Drawing.Color.White;
             this.btnin.Image = global::Motobike.Properties.Resources.print;
             this.btnin.ImageSize = new System.Drawing.Size(34, 34);
-            this.btnin.Location = new System.Drawing.Point(878, 428);
+            this.btnin.Location = new System.Drawing.Point(878, 434);
             this.btnin.Name = "btnin";
             this.btnin.Size = new System.Drawing.Size(180, 45);
             this.btnin.TabIndex = 9;
@@ -284,7 +311,7 @@
             this.btntimlai.ForeColor = System.Drawing.Color.White;
             this.btntimlai.Image = global::Motobike.Properties.Resources.research;
             this.btntimlai.ImageSize = new System.Drawing.Size(34, 34);
-            this.btntimlai.Location = new System.Drawing.Point(472, 428);
+            this.btntimlai.Location = new System.Drawing.Point(470, 434);
             this.btntimlai.Name = "btntimlai";
             this.btntimlai.Size = new System.Drawing.Size(180, 45);
             this.btntimlai.TabIndex = 8;
@@ -304,7 +331,7 @@
             this.btntimkiem.ForeColor = System.Drawing.Color.White;
             this.btntimkiem.Image = global::Motobike.Properties.Resources.find;
             this.btntimkiem.ImageSize = new System.Drawing.Size(34, 34);
-            this.btntimkiem.Location = new System.Drawing.Point(92, 428);
+            this.btntimkiem.Location = new System.Drawing.Point(70, 434);
             this.btntimkiem.Name = "btntimkiem";
             this.btntimkiem.Size = new System.Drawing.Size(167, 45);
             this.btntimkiem.TabIndex = 7;
@@ -316,6 +343,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1135, 491);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.lblname);
             this.Controls.Add(this.btnin);
             this.Controls.Add(this.btntimlai);
             this.Controls.Add(this.btntimkiem);
@@ -353,5 +382,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblname;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
     }
 }

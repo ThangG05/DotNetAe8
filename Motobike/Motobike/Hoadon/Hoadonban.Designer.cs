@@ -74,6 +74,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.btntimkiem = new Guna.UI2.WinForms.Guna2Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.btnquaythuong = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2GroupBox1.SuspendLayout();
             this.guna2GroupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.databanxe)).BeginInit();
@@ -154,7 +155,6 @@
             this.txtmahd.Name = "txtmahd";
             this.txtmahd.Size = new System.Drawing.Size(175, 27);
             this.txtmahd.TabIndex = 10;
-            this.txtmahd.TextChanged += new System.EventHandler(this.txtmahd_TextChanged);
             // 
             // cbnmakhach
             // 
@@ -282,7 +282,7 @@
             this.guna2GroupBox2.Controls.Add(this.label9);
             this.guna2GroupBox2.Font = new System.Drawing.Font("Segoe UI Variable Display", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.Black;
-            this.guna2GroupBox2.Location = new System.Drawing.Point(51, 200);
+            this.guna2GroupBox2.Location = new System.Drawing.Point(17, 200);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
             this.guna2GroupBox2.Size = new System.Drawing.Size(1046, 328);
             this.guna2GroupBox2.TabIndex = 1;
@@ -603,11 +603,29 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // btnquaythuong
+            // 
+            this.btnquaythuong.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnquaythuong.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnquaythuong.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnquaythuong.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnquaythuong.FillColor = System.Drawing.Color.Black;
+            this.btnquaythuong.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnquaythuong.ForeColor = System.Drawing.Color.White;
+            this.btnquaythuong.Location = new System.Drawing.Point(1069, 458);
+            this.btnquaythuong.Name = "btnquaythuong";
+            this.btnquaythuong.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.btnquaythuong.Size = new System.Drawing.Size(70, 70);
+            this.btnquaythuong.TabIndex = 30;
+            this.btnquaythuong.Text = "Quay thưởng";
+            this.btnquaythuong.Click += new System.EventHandler(this.btnquaythuong_Click);
+            // 
             // Hoadonban
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1150, 571);
+            this.Controls.Add(this.btnquaythuong);
             this.Controls.Add(this.btntimkiem);
             this.Controls.Add(this.cbnmahd);
             this.Controls.Add(this.label17);
@@ -674,5 +692,6 @@
         private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.Label txttongtien;
         private Guna.UI2.WinForms.Guna2ComboBox txtthue;
+        private Guna.UI2.WinForms.Guna2CircleButton btnquaythuong;
     }
 }

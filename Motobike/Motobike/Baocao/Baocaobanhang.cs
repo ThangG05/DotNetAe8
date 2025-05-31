@@ -15,6 +15,7 @@ using System.Data.SqlClient;
 using Motobike.Timkiem;
 using System.Runtime.InteropServices;
 using System.Globalization;
+using Motobike.ACC;
 namespace Motobike.Baocao
 {
     public partial class Baocaobanhang : Form
@@ -134,6 +135,7 @@ namespace Motobike.Baocao
             }
             reader.Close();
         }
+        public string Ten { get; set; }
         private void Baocaobanhang_Load(object sender, EventArgs e)
         {
             NapMaHD();
@@ -141,6 +143,7 @@ namespace Motobike.Baocao
             NapTenHang();
             NapTenKhach();
             An();
+            lblname.Text = Dangnhap.TenDangNhap;
         }
         private void An()
         {
@@ -363,5 +366,7 @@ namespace Motobike.Baocao
             cbnmnv.Enabled= false;
             cbntenkhach.Enabled=! false;
         }
+
+        
     }
 }
