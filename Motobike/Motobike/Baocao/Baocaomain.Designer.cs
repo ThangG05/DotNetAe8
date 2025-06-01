@@ -150,6 +150,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Baocaomain";
             this.Text = "Baocaomain";
+            this.Load += new System.EventHandler(this.Baocaomain_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.pbody.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

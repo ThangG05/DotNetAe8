@@ -123,6 +123,16 @@ namespace Motobike.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chiii {
+            get {
+                object obj = ResourceManager.GetObject("chiii", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Đăng_ký {
             get {
                 object obj = ResourceManager.GetObject("Đăng ký", resourceCulture);
@@ -206,6 +216,16 @@ namespace Motobike.Properties {
         internal static System.Drawing.Bitmap findmain {
             get {
                 object obj = ResourceManager.GetObject("findmain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fixchi {
+            get {
+                object obj = ResourceManager.GetObject("fixchi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -416,6 +436,16 @@ namespace Motobike.Properties {
         internal static System.Drawing.Bitmap motto {
             get {
                 object obj = ResourceManager.GetObject("motto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap muiten {
+            get {
+                object obj = ResourceManager.GetObject("muiten", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,6 +683,26 @@ namespace Motobike.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Thuong1 {
+            get {
+                object obj = ResourceManager.GetObject("Thuong1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Thuong2 {
+            get {
+                object obj = ResourceManager.GetObject("Thuong2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Timkiem {
             get {
                 object obj = ResourceManager.GetObject("Timkiem", resourceCulture);
@@ -726,6 +776,36 @@ namespace Motobike.Properties {
         internal static System.Drawing.Bitmap username1 {
             get {
                 object obj = ResourceManager.GetObject("username1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vongquay {
+            get {
+                object obj = ResourceManager.GetObject("vongquay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vongquay1 {
+            get {
+                object obj = ResourceManager.GetObject("vongquay1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vongquaymanmay {
+            get {
+                object obj = ResourceManager.GetObject("vongquaymanmay", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

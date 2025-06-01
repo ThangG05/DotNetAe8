@@ -20,10 +20,14 @@ namespace Motobike.Baocao
 {
     public partial class Baocaobanhang : Form
     {
+
         public Baocaobanhang()
         {
             InitializeComponent();
+      
+
         }
+       
         private void ExportExcel(string path)
         {
             Excel.Application app = new Excel.Application();

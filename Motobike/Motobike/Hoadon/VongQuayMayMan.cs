@@ -32,11 +32,11 @@ namespace Motobike.Hoadon
             timerQuay.Interval = 20;
             timerQuay.Tick += TimerQuay_Tick;
 
-            guna2PictureBox1.Image = Properties.Resources.Thuong;
-            guna2PictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            guna2PictureBox2.Image = Properties.Resources.Thuong2;
+            guna2PictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
             guna2Button1.Text = "QUAY";
-            guna2Button1.FillColor = Color.MediumSlateBlue;
+            guna2Button1.FillColor = Color.Black;
             guna2Button1.Font = new Font("Segoe UI", 14, FontStyle.Bold);
             guna2Button1.Click += btnQuay_Click;
         }
@@ -55,7 +55,7 @@ namespace Motobike.Hoadon
             {
                 gocHienTai += tocDoQuay;
                 tocDoQuay = Math.Max(1f, tocDoQuay - 0.1f);
-                guna2PictureBox1.Image = QuayAnh(Properties.Resources.Thuong, gocHienTai);
+                guna2PictureBox2.Image = QuayAnh(Properties.Resources.Thuong2, gocHienTai);
             }
             else
             {

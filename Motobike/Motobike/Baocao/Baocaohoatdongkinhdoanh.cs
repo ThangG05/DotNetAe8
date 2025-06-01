@@ -182,7 +182,7 @@ namespace Motobike.Baocao
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+                MessageBox.Show("không có dữ liệu");
             }
             finally
             {

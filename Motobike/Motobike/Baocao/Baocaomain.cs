@@ -58,6 +58,7 @@ namespace Motobike.Baocao
             btnbanhang.FillColor = Color.FromArgb(130, 142, 151);
             btnbanhang.ForeColor = Color.Wheat;
             Open(new Baocaobanhang());
+
         }
 
         private void btnkinhdoanh_Click(object sender, EventArgs e)
@@ -74,6 +75,11 @@ namespace Motobike.Baocao
             btnsanpham.FillColor = Color.FromArgb(130, 142, 151);
             btnsanpham.ForeColor = Color.Wheat;
             Open(new Baocaotopsanpham());
+        }
+
+        private void Baocaomain_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

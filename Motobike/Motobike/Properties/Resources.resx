@@ -136,8 +136,14 @@
   <data name="Key" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Key.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fixchi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fixchi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="save" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ngu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ngu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="suzukiburgmanstreet" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\suzukiburgmanstreet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +175,11 @@
   <data name="Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="yahamaexciter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yahamaexciter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vongquay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vongquay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vongquay1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vongquay1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="username" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\username.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,6 +211,9 @@
   <data name="Quên mật khẩu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Quên mật khẩu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="username1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\username1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="HONDASHMODE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HONDASHMODE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -219,6 +231,9 @@
   </data>
   <data name="okkkkheader1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\okkkkheader1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="muiten" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\muiten.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="yamahajanus" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\yamahajanus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -261,6 +276,9 @@
   </data>
   <data name="mathangmian" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mathangmian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thuong2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thuong2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="research" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\research.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -319,6 +337,9 @@
   <data name="HONDAWAVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HONDAWAVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Thuong1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thuong1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="find" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\find.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -328,8 +349,11 @@
   <data name="logoheader" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logoheader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ngu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ngu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yahamaexciter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yahamaexciter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chiii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chiii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="HONDAVISION" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HONDAVISION.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -349,7 +373,7 @@
   <data name="edit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="username1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\username1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="vongquaymanmay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vongquaymanmay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

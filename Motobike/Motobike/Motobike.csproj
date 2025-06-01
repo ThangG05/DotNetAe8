@@ -619,6 +619,14 @@
     <None Include="Resources\Thuong.png" />
     <None Include="Resources\tennn.png" />
     <None Include="Resources\username1.png" />
+    <None Include="Resources\vongquay.png" />
+    <None Include="Resources\Thuong1.png" />
+    <None Include="Resources\vongquay1.png" />
+    <None Include="Resources\Thuong2.png" />
+    <None Include="Resources\muiten.png" />
+    <None Include="Resources\chiii.png" />
+    <None Include="Resources\fixchi.png" />
+    <None Include="Resources\vongquaymanmay.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
